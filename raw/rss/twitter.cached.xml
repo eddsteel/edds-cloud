@@ -1,0 +1,364 @@
+--- !ruby/object:FeedNormalizer::Feed 
+authors: []
+
+description: Twitter updates from Edward Steel / eddsteel.
+id: http://twitter.com/eddsteel
+image: 
+items: 
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: "eddsteel: RT @serafinowicz: Ok miners. Back to work."
+  copyright: 
+  date_published: &id001 2010-10-15 07:20:06 +01:00
+  description: "eddsteel: RT @serafinowicz: Ok miners. Back to work."
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/27416689342
+  last_updated: *id001
+  parsed: false
+  title: "eddsteel: RT @serafinowicz: Ok miners. Back to work."
+  urls: 
+  - http://twitter.com/eddsteel/statuses/27416689342
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: "eddsteel: RT @VizTopTips: THATCHER - try not to keel over and die at the sight of scousers and miners celebrating on your birthday. /via @stuartgo ..."
+  copyright: 
+  date_published: &id002 2010-10-13 20:27:33 +01:00
+  description: "eddsteel: RT @VizTopTips: THATCHER - try not to keel over and die at the sight of scousers and miners celebrating on your birthday. /via @stuartgo ..."
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/27269728354
+  last_updated: *id002
+  parsed: false
+  title: "eddsteel: RT @VizTopTips: THATCHER - try not to keel over and die at the sight of scousers and miners celebrating on your birthday. /via @stuartgo ..."
+  urls: 
+  - http://twitter.com/eddsteel/statuses/27269728354
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: "eddsteel: @Balaban Fo rizzles. Can't wait! I'm hitting Hortons hard."
+  copyright: 
+  date_published: &id003 2010-10-13 20:24:17 +01:00
+  description: "eddsteel: @Balaban Fo rizzles. Can't wait! I'm hitting Hortons hard."
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/27269506760
+  last_updated: *id003
+  parsed: false
+  title: "eddsteel: @Balaban Fo rizzles. Can't wait! I'm hitting Hortons hard."
+  urls: 
+  - http://twitter.com/eddsteel/statuses/27269506760
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: &id004 |-
+    eddsteel: Pop quiz: In what year did Germany stop paying reparations for World War I?
+    
+    Nope. Last week. http://bit.ly/akvbQd
+  copyright: 
+  date_published: &id005 2010-10-10 21:16:30 +01:00
+  description: *id004
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/26967851200
+  last_updated: *id005
+  parsed: false
+  title: |-
+    eddsteel: Pop quiz: In what year did Germany stop paying reparations for World War I?
+    
+    Nope. Last week. http://bit.ly/akvbQd
+  urls: 
+  - http://twitter.com/eddsteel/statuses/26967851200
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: "eddsteel: @Balaban: bought the ticket today!"
+  copyright: 
+  date_published: &id006 2010-10-10 21:14:21 +01:00
+  description: "eddsteel: @Balaban: bought the ticket today!"
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/26967702262
+  last_updated: *id006
+  parsed: false
+  title: "eddsteel: @Balaban: bought the ticket today!"
+  urls: 
+  - http://twitter.com/eddsteel/statuses/26967702262
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: "eddsteel: A happy thanksgiving, Canada."
+  copyright: 
+  date_published: &id007 2010-10-10 17:37:21 +01:00
+  description: "eddsteel: A happy thanksgiving, Canada."
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/26951720608
+  last_updated: *id007
+  parsed: false
+  title: "eddsteel: A happy thanksgiving, Canada."
+  urls: 
+  - http://twitter.com/eddsteel/statuses/26951720608
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: "eddsteel: I switched to an ad break on #Dave after #MadMen. Was like rounding off a michelin starred meal with a bag of monster munch."
+  copyright: 
+  date_published: &id008 2010-10-08 07:11:24 +01:00
+  description: "eddsteel: I switched to an ad break on #Dave after #MadMen. Was like rounding off a michelin starred meal with a bag of monster munch."
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/26723653780
+  last_updated: *id008
+  parsed: false
+  title: "eddsteel: I switched to an ad break on #Dave after #MadMen. Was like rounding off a michelin starred meal with a bag of monster munch."
+  urls: 
+  - http://twitter.com/eddsteel/statuses/26723653780
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: "eddsteel: Bier Bikes Banned! http://gu.com/p/2k7ev/tw apparently due to rowdiness, traffic and all round orsumness."
+  copyright: 
+  date_published: &id009 2010-10-06 19:58:43 +01:00
+  description: "eddsteel: Bier Bikes Banned! http://gu.com/p/2k7ev/tw apparently due to rowdiness, traffic and all round orsumness."
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/26576568675
+  last_updated: *id009
+  parsed: false
+  title: "eddsteel: Bier Bikes Banned! http://gu.com/p/2k7ev/tw apparently due to rowdiness, traffic and all round orsumness."
+  urls: 
+  - http://twitter.com/eddsteel/statuses/26576568675
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: "eddsteel: RT @CherylKerl: Aw, Will Iam's name's well cool izzen it? Ah'm mebbes ganna change mei name tuh Cher Why Aye. #XFactor"
+  copyright: 
+  date_published: &id010 2010-10-03 11:18:20 +01:00
+  description: "eddsteel: RT @CherylKerl: Aw, Will Iam's name's well cool izzen it? Ah'm mebbes ganna change mei name tuh Cher Why Aye. #XFactor"
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/26255296168
+  last_updated: *id010
+  parsed: false
+  title: "eddsteel: RT @CherylKerl: Aw, Will Iam's name's well cool izzen it? Ah'm mebbes ganna change mei name tuh Cher Why Aye. #XFactor"
+  urls: 
+  - http://twitter.com/eddsteel/statuses/26255296168
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: "eddsteel: RT @smashingmag: The Facebook API: A Case Study in Not Caring About Developers - http://bit.ly/d0Jeef"
+  copyright: 
+  date_published: &id011 2010-10-03 11:13:23 +01:00
+  description: "eddsteel: RT @smashingmag: The Facebook API: A Case Study in Not Caring About Developers - http://bit.ly/d0Jeef"
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/26255062553
+  last_updated: *id011
+  parsed: false
+  title: "eddsteel: RT @smashingmag: The Facebook API: A Case Study in Not Caring About Developers - http://bit.ly/d0Jeef"
+  urls: 
+  - http://twitter.com/eddsteel/statuses/26255062553
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: "eddsteel: Life is good when you're a wujek."
+  copyright: 
+  date_published: &id012 2010-10-01 20:06:36 +01:00
+  description: "eddsteel: Life is good when you're a wujek."
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/26107322745
+  last_updated: *id012
+  parsed: false
+  title: "eddsteel: Life is good when you're a wujek."
+  urls: 
+  - http://twitter.com/eddsteel/statuses/26107322745
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: "eddsteel: @Balaban Totally"
+  copyright: 
+  date_published: &id013 2010-09-28 07:23:52 +01:00
+  description: "eddsteel: @Balaban Totally"
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/25761712712
+  last_updated: *id013
+  parsed: false
+  title: "eddsteel: @Balaban Totally"
+  urls: 
+  - http://twitter.com/eddsteel/statuses/25761712712
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: "eddsteel: @polemic chromium (free part of chrome) is distributed through normal package channels- might be less painful."
+  copyright: 
+  date_published: &id014 2010-09-27 08:41:51 +01:00
+  description: "eddsteel: @polemic chromium (free part of chrome) is distributed through normal package channels- might be less painful."
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/25666936047
+  last_updated: *id014
+  parsed: false
+  title: "eddsteel: @polemic chromium (free part of chrome) is distributed through normal package channels- might be less painful."
+  urls: 
+  - http://twitter.com/eddsteel/statuses/25666936047
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: "eddsteel: @Balaban: I do the same, only I'm 'load testing'"
+  copyright: 
+  date_published: &id015 2010-09-16 19:10:13 +01:00
+  description: "eddsteel: @Balaban: I do the same, only I'm 'load testing'"
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/24685893089
+  last_updated: *id015
+  parsed: false
+  title: "eddsteel: @Balaban: I do the same, only I'm 'load testing'"
+  urls: 
+  - http://twitter.com/eddsteel/statuses/24685893089
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: "eddsteel: RT @ABridgwater: Pope Benedict urges the UK to resist \"aggressive secularism\", UK urges Pope Benedict to buy Pope On A Rope Smoking Dope ..."
+  copyright: 
+  date_published: &id016 2010-09-16 18:14:35 +01:00
+  description: "eddsteel: RT @ABridgwater: Pope Benedict urges the UK to resist \"aggressive secularism\", UK urges Pope Benedict to buy Pope On A Rope Smoking Dope ..."
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/24682015348
+  last_updated: *id016
+  parsed: false
+  title: "eddsteel: RT @ABridgwater: Pope Benedict urges the UK to resist \"aggressive secularism\", UK urges Pope Benedict to buy Pope On A Rope Smoking Dope ..."
+  urls: 
+  - http://twitter.com/eddsteel/statuses/24682015348
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: "eddsteel: Can anyone tell me a country that's not ashamed of its 'aggressive secularism' (#pope) so I can go and  live there in peace?"
+  copyright: 
+  date_published: &id017 2010-09-16 18:13:49 +01:00
+  description: "eddsteel: Can anyone tell me a country that's not ashamed of its 'aggressive secularism' (#pope) so I can go and  live there in peace?"
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/24681958015
+  last_updated: *id017
+  parsed: false
+  title: "eddsteel: Can anyone tell me a country that's not ashamed of its 'aggressive secularism' (#pope) so I can go and  live there in peace?"
+  urls: 
+  - http://twitter.com/eddsteel/statuses/24681958015
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: "eddsteel: RT @SallyBercow: Brilliant, just brilliant....  http://yfrog.com/m9l2bj Thanks @johnrentoul. #pope"
+  copyright: 
+  date_published: &id018 2010-09-16 12:53:51 +01:00
+  description: "eddsteel: RT @SallyBercow: Brilliant, just brilliant....  http://yfrog.com/m9l2bj Thanks @johnrentoul. #pope"
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/24656990563
+  last_updated: *id018
+  parsed: false
+  title: "eddsteel: RT @SallyBercow: Brilliant, just brilliant....  http://yfrog.com/m9l2bj Thanks @johnrentoul. #pope"
+  urls: 
+  - http://twitter.com/eddsteel/statuses/24656990563
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: "eddsteel: @CSNandP Wow! That *would* be worthy of an incremented version number!"
+  copyright: 
+  date_published: &id019 2010-09-15 22:35:53 +01:00
+  description: "eddsteel: @CSNandP Wow! That *would* be worthy of an incremented version number!"
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/24605473942
+  last_updated: *id019
+  parsed: false
+  title: "eddsteel: @CSNandP Wow! That *would* be worthy of an incremented version number!"
+  urls: 
+  - http://twitter.com/eddsteel/statuses/24605473942
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: "eddsteel: #IE9. I can barely contain the excitement. I'll bet it's their least shitty yet!"
+  copyright: 
+  date_published: &id020 2010-09-15 19:13:34 +01:00
+  description: "eddsteel: #IE9. I can barely contain the excitement. I'll bet it's their least shitty yet!"
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/24592282165
+  last_updated: *id020
+  parsed: false
+  title: "eddsteel: #IE9. I can barely contain the excitement. I'll bet it's their least shitty yet!"
+  urls: 
+  - http://twitter.com/eddsteel/statuses/24592282165
+- !ruby/object:FeedNormalizer::Entry 
+  authors: []
+
+  categories: []
+
+  content: "eddsteel: Royal Mail to begin privatisation in autumn http://gu.com/p/2jt9b/tw Dramatically more efficient, no doubt. Like the railways."
+  copyright: 
+  date_published: &id021 2010-09-10 19:07:43 +01:00
+  description: "eddsteel: Royal Mail to begin privatisation in autumn http://gu.com/p/2jt9b/tw Dramatically more efficient, no doubt. Like the railways."
+  enclosures: []
+
+  id: http://twitter.com/eddsteel/statuses/24126390131
+  last_updated: *id021
+  parsed: false
+  title: "eddsteel: Royal Mail to begin privatisation in autumn http://gu.com/p/2jt9b/tw Dramatically more efficient, no doubt. Like the railways."
+  urls: 
+  - http://twitter.com/eddsteel/statuses/24126390131
+last_updated: 2010-10-15 07:20:06 +01:00
+parsed: false
+parser: SimpleRSS
+skip_days: []
+
+skip_hours: []
+
+title: Twitter / eddsteel
+ttl: "40"
+urls: 
+- http://twitter.com/eddsteel

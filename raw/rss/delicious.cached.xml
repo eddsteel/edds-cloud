@@ -1,0 +1,247 @@
+--- !ruby/object:FeedNormalizer::Feed 
+authors: []
+
+description: bookmarks posted by esteel
+image: 
+items: 
+- !ruby/object:FeedNormalizer::Entry 
+  authors: 
+  - esteel
+  categories: 
+  - dtigtag
+  content: A pen and paper based SQL injection attack and XSS attack on the Swedish election. Considering these ballots were OCRed or transcribed verbatim, it wasn&#039;t so far fetched, but didn&#039;t work.
+  date_published: &id001 2010-10-20 12:56:30 +01:00
+  description: A pen and paper based SQL injection attack and XSS attack on the Swedish election. Considering these ballots were OCRed or transcribed verbatim, it wasn&#039;t so far fetched, but didn&#039;t work.
+  enclosures: []
+
+  id: http://www.delicious.com/url/f4503ef13395e035027bade06486ee9b#esteel
+  last_updated: *id001
+  parsed: false
+  title: "Schneier on Security: Pen-and-Paper SQL Injection Attack Against Swedish Election"
+  urls: 
+  - http://www.schneier.com/blog/archives/2010/10/pen-and-paper_s.html
+- !ruby/object:FeedNormalizer::Entry 
+  authors: 
+  - esteel
+  categories: 
+  - devlopment
+  content: Well, this is rather splendid. &#039;Heck to the yeah!&#039; was pretty much my reaction too.
+  date_published: &id002 2010-10-10 21:44:53 +01:00
+  description: Well, this is rather splendid. &#039;Heck to the yeah!&#039; was pretty much my reaction too.
+  enclosures: []
+
+  id: http://www.delicious.com/url/fd70d3a43aa3c28613f533281af39f66#esteel
+  last_updated: *id002
+  parsed: false
+  title: htty, the HTTP TTY
+  urls: 
+  - http://htty.github.com/
+- !ruby/object:FeedNormalizer::Entry 
+  authors: 
+  - esteel
+  categories: 
+  - book
+  content: 
+  date_published: &id003 2010-10-06 13:20:17 +01:00
+  enclosures: []
+
+  id: http://www.delicious.com/url/add4fe2626271457e11ee9392759765d#esteel
+  last_updated: *id003
+  parsed: false
+  title: jQuery Fundamentals
+  urls: 
+  - http://jqfundamentals.com/book/book.html
+- !ruby/object:FeedNormalizer::Entry 
+  authors: 
+  - esteel
+  categories: 
+  - Vim
+  content: 
+  date_published: &id004 2010-10-05 07:12:10 +01:00
+  enclosures: []
+
+  id: http://www.delicious.com/url/70f896d0ea142330417d3a178d0196aa#esteel
+  last_updated: *id004
+  parsed: false
+  title: nvie.com - How I boosted my Vim
+  urls: 
+  - http://nvie.com/posts/how-i-boosted-my-vim/
+- !ruby/object:FeedNormalizer::Entry 
+  authors: 
+  - esteel
+  categories: 
+  - security
+  content: "&quot;The bottom line is currently there is nothing that you cannot do to someone\xE2\x80\x99s Diaspora account, absolutely nothing&quot;. Ouch."
+  date_published: &id005 2010-09-28 17:15:42 +01:00
+  description: "&quot;The bottom line is currently there is nothing that you cannot do to someone\xE2\x80\x99s Diaspora account, absolutely nothing&quot;. Ouch."
+  enclosures: []
+
+  id: http://www.delicious.com/url/147d6d032b53b78859f97e768883cfa0#esteel
+  last_updated: *id005
+  parsed: false
+  title: "Security Lessons Learned From The Diaspora Launch: MicroISV on a Shoestring"
+  urls: 
+  - http://www.kalzumeus.com/2010/09/22/security-lessons-learned-from-the-diaspora-launch/
+- !ruby/object:FeedNormalizer::Entry 
+  authors: 
+  - esteel
+  categories: 
+  - badservice
+  content: "NatWest: Helpful banking. &quot;No, you can&#039;t tell us you&#039;re taking your card abroad, but you&#039;d better take our international call centre number, because you can be sure we&#039;ll block the bastard.&quot;"
+  date_published: &id006 2010-09-16 10:44:10 +01:00
+  description: "NatWest: Helpful banking. &quot;No, you can&#039;t tell us you&#039;re taking your card abroad, but you&#039;d better take our international call centre number, because you can be sure we&#039;ll block the bastard.&quot;"
+  enclosures: []
+
+  id: http://www.delicious.com/url/325a0135f3b2ed2e5177b418e27d3116#esteel
+  last_updated: *id006
+  parsed: false
+  title: NatWest Help
+  urls: 
+  - https://www.questions.natwest.com/RBSG/index?page=content&id=FA101
+- !ruby/object:FeedNormalizer::Entry 
+  authors: 
+  - esteel
+  categories: 
+  - heroku
+  content: An overview of what&#039;s around, noSQL-wise.
+  date_published: &id007 2010-09-13 12:28:12 +01:00
+  description: An overview of what&#039;s around, noSQL-wise.
+  enclosures: []
+
+  id: http://www.delicious.com/url/4383b45d4d820e9c10bfa0398ef6c5e7#esteel
+  last_updated: *id007
+  parsed: false
+  title: NoSQL, Heroku, and You
+  urls: 
+  - http://blog.heroku.com/archives/2010/7/20/nosql/
+- !ruby/object:FeedNormalizer::Entry 
+  authors: 
+  - esteel
+  categories: 
+  - heroku
+  content: 
+  date_published: &id008 2010-09-09 12:50:55 +01:00
+  enclosures: []
+
+  id: http://www.delicious.com/url/72c52df9e0b76526170fafef36364d28#esteel
+  last_updated: *id008
+  parsed: false
+  title: HTTP caching
+  urls: 
+  - http://docs.heroku.com/http-caching?utm_medium=email&utm_source=EmailBlast&utm_content=480998849&utm_campaign=HerokuSeptemberNewsletter-VersionB&utm_term=varnishdocumentation
+- !ruby/object:FeedNormalizer::Entry 
+  authors: 
+  - esteel
+  categories: 
+  - diy
+  content: 
+  date_published: &id009 2010-09-09 12:46:13 +01:00
+  enclosures: []
+
+  id: http://www.delicious.com/url/298e492daba610813d84953d5c938d61#esteel
+  last_updated: *id009
+  parsed: false
+  title: Building a Wifi Radio
+  urls: 
+  - http://mightyohm.com/blog/2008/10/building-a-wifi-radio-part-1-introduction/
+- !ruby/object:FeedNormalizer::Entry 
+  authors: 
+  - esteel
+  categories: 
+  - dtigtag
+  content: COBOL ON COGS+SUPPORTS HYPERLINKS#AND#AN IMPRESSIVE#ARRAY OF SOME_OF\THE_MOST\USEFUL_HTML TAGS SUCH AS &lt;BLINK&gt;, &lt;U&gt;, &lt;BRIGHT&gt; AND &lt;F1&gt;.
+  date_published: &id010 2010-09-07 11:58:59 +01:00
+  description: COBOL ON COGS+SUPPORTS HYPERLINKS#AND#AN IMPRESSIVE#ARRAY OF SOME_OF\THE_MOST\USEFUL_HTML TAGS SUCH AS &lt;BLINK&gt;, &lt;U&gt;, &lt;BRIGHT&gt; AND &lt;F1&gt;.
+  enclosures: []
+
+  id: http://www.delicious.com/url/45da0ab2a9dc230ac856a47957443abb#esteel
+  last_updated: *id010
+  parsed: false
+  title: COBOL ON COGS
+  urls: 
+  - http://www.coboloncogs.org/INDEX.HTM
+- !ruby/object:FeedNormalizer::Entry 
+  authors: 
+  - esteel
+  categories: 
+  - dtigtag
+  content: Brief description of Java 7&#039;s try-with-resources block
+  date_published: &id011 2010-08-26 12:24:52 +01:00
+  description: Brief description of Java 7&#039;s try-with-resources block
+  enclosures: []
+
+  id: http://www.delicious.com/url/d8b737897962793548f35d0546c5976d#esteel
+  last_updated: *id011
+  parsed: false
+  title: "Java 7 : try-with-resources | @Blog(\"Baptiste Wicht\")"
+  urls: 
+  - http://www.baptiste-wicht.com/2010/08/java-7-try-with-resources-statement/
+- !ruby/object:FeedNormalizer::Entry 
+  authors: 
+  - esteel
+  categories: 
+  - javascript
+  content: Javascript graphing designed for live streaming data - reading data from web sockets. Webkit/opera only
+  date_published: &id012 2010-08-23 12:18:16 +01:00
+  description: Javascript graphing designed for live streaming data - reading data from web sockets. Webkit/opera only
+  enclosures: []
+
+  id: http://www.delicious.com/url/0dca0be0681ac0d89bb9ffa7d08e0f39#esteel
+  last_updated: *id012
+  parsed: false
+  title: Smoothie Charts
+  urls: 
+  - http://smoothiecharts.org/
+- !ruby/object:FeedNormalizer::Entry 
+  authors: 
+  - esteel
+  categories: 
+  - javascript
+  content: A serious discussion of the javascript language
+  date_published: &id013 2010-08-22 21:37:20 +01:00
+  description: A serious discussion of the javascript language
+  enclosures: []
+
+  id: http://www.delicious.com/url/772680f6cf91386e4ebdd2b19efc0fdd#esteel
+  last_updated: *id013
+  parsed: false
+  title: "JavaScript: The Good Parts: Amazon.co.uk: Douglas Crockford: Books"
+  urls: 
+  - http://www.amazon.co.uk/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742
+- !ruby/object:FeedNormalizer::Entry 
+  authors: 
+  - esteel
+  categories: 
+  - make
+  content: 
+  date_published: &id014 2010-08-20 16:26:23 +01:00
+  enclosures: []
+
+  id: http://www.delicious.com/url/192343ecdb415925ee76023ca9d42ae5#esteel
+  last_updated: *id014
+  parsed: false
+  title: "DIY soldering iron stand \xE2\x80\x94 DIY How-to from Make: Projects"
+  urls: 
+  - http://makeprojects.com/Project/DIY-soldering-iron-stand/213/1
+- !ruby/object:FeedNormalizer::Entry 
+  authors: 
+  - esteel
+  categories: 
+  - book
+  content: 
+  date_published: &id015 2010-08-19 14:10:16 +01:00
+  enclosures: []
+
+  id: http://www.delicious.com/url/74e88b530ed7f5261f01aece4821e86f#esteel
+  last_updated: *id015
+  parsed: false
+  title: "Amazon.com: Form+Code in Design, Art, and Architecture (Design Briefs) (9781568989372): Casey Reas, Chandler McWilliams: Books"
+  urls: 
+  - http://www.amazon.com/gp/product/1568989377?ie=UTF8&tag=formandcode-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=1568989377
+last_updated: 
+parser: RSS::Parser
+skip_days: 
+skip_hours: 
+title: Delicious/esteel
+urls: 
+- http://www.delicious.com/esteel

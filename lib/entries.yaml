@@ -1,0 +1,644 @@
+--- !ruby/object:FileBackend 
+entries: 
+- !ruby/object:SharedLink 
+  author: 
+  content: A pen and paper based SQL injection attack and XSS attack on the Swedish election. Considering these ballots were OCRed or transcribed verbatim, it wasn&#039;t so far fetched, but didn&#039;t work.
+  date: 2010-10-20 12:56:30 +01:00
+  meta: 
+  source: :delicious
+  source_url: http://www.delicious.com/url/f4503ef13395e035027bade06486ee9b#esteel
+  tags: 
+  - dtigtag
+  title: "Schneier on Security: Pen-and-Paper SQL Injection Attack Against Swedish Election"
+  url: http://www.schneier.com/blog/archives/2010/10/pen-and-paper_s.html
+- !ruby/object:Tweet 
+  author: eddsteel
+  content: <blockquote>Ok miners. Back to work.</blockquote>
+  date: 2010-10-15 07:20:06 +01:00
+  meta: !ruby/object:Meta 
+    quoting: serafinowicz
+    recipient: 
+    response_id: 
+    tags: &id001 []
+
+  source: :twitter
+  source_url: http://twitter.com/eddsteel/statuses/27416689342
+  tags: *id001
+  title: 
+  url: http://twitter.com/eddsteel/statuses/27416689342
+- !ruby/object:Tweet 
+  author: eddsteel
+  content: <blockquote>THATCHER - try not to keel over and die at the sight of scousers and miners celebrating on your birthday. /via @stuartgo ...</blockquote>
+  date: 2010-10-13 20:27:33 +01:00
+  meta: !ruby/object:Meta 
+    quoting: VizTopTips
+    recipient: 
+    response_id: 
+    tags: &id002 []
+
+  source: :twitter
+  source_url: http://twitter.com/eddsteel/statuses/27269728354
+  tags: *id002
+  title: 
+  url: http://twitter.com/eddsteel/statuses/27269728354
+- !ruby/object:Tweet 
+  author: eddsteel
+  content: " Fo rizzles. Can't wait! I'm hitting Hortons hard."
+  date: 2010-10-13 20:24:17 +01:00
+  meta: !ruby/object:Meta 
+    quoting: 
+    recipient: Balaban
+    response_id: 
+    tags: &id003 []
+
+  source: :twitter
+  source_url: http://twitter.com/eddsteel/statuses/27269506760
+  tags: *id003
+  title: 
+  url: http://twitter.com/eddsteel/statuses/27269506760
+- !ruby/object:SharedLink 
+  author: 
+  content: Well, this is rather splendid. &#039;Heck to the yeah!&#039; was pretty much my reaction too.
+  date: 2010-10-10 21:44:53 +01:00
+  meta: 
+  source: :delicious
+  source_url: http://www.delicious.com/url/fd70d3a43aa3c28613f533281af39f66#esteel
+  tags: 
+  - devlopment
+  title: htty, the HTTP TTY
+  url: http://htty.github.com/
+- !ruby/object:Tweet 
+  author: eddsteel
+  content: |-
+    Pop quiz: In what year did Germany stop paying reparations for World War I?
+    
+    Nope. Last week. http://bit.ly/akvbQd
+  date: 2010-10-10 21:16:30 +01:00
+  meta: !ruby/object:Meta 
+    quoting: 
+    recipient: 
+    response_id: 
+    tags: &id004 []
+
+  source: :twitter
+  source_url: http://twitter.com/eddsteel/statuses/26967851200
+  tags: *id004
+  title: 
+  url: http://twitter.com/eddsteel/statuses/26967851200
+- !ruby/object:Tweet 
+  author: eddsteel
+  content: " bought the ticket today!"
+  date: 2010-10-10 21:14:21 +01:00
+  meta: !ruby/object:Meta 
+    quoting: 
+    recipient: Balaban
+    response_id: 
+    tags: &id005 []
+
+  source: :twitter
+  source_url: http://twitter.com/eddsteel/statuses/26967702262
+  tags: *id005
+  title: 
+  url: http://twitter.com/eddsteel/statuses/26967702262
+- !ruby/object:Tweet 
+  author: eddsteel
+  content: A happy thanksgiving, Canada.
+  date: 2010-10-10 17:37:21 +01:00
+  meta: !ruby/object:Meta 
+    quoting: 
+    recipient: 
+    response_id: 
+    tags: &id006 []
+
+  source: :twitter
+  source_url: http://twitter.com/eddsteel/statuses/26951720608
+  tags: *id006
+  title: 
+  url: http://twitter.com/eddsteel/statuses/26951720608
+- !ruby/object:SharedItem 
+  author: 
+  content: |-
+    
+    This whole blog is pure gold.
+  date: 2010-10-09 22:37:41 Z
+  meta: 
+  source: :google
+  source_url: tag:google.com,2005:reader/item/bbd8056b2b41fe29
+  tags: []
+
+  title: Rimshot
+  url: http://feedproxy.google.com/~r/FutilityCloset/~3/XNNGiqyfTXQ/
+- !ruby/object:Tweet 
+  author: eddsteel
+  content: "I switched to an ad break on #Dave after #MadMen. Was like rounding off a michelin starred meal with a bag of monster munch."
+  date: 2010-10-08 07:11:24 +01:00
+  meta: !ruby/object:Meta 
+    quoting: 
+    recipient: 
+    response_id: 
+    tags: &id007 
+      - :Dave
+      - :MadMen
+  source: :twitter
+  source_url: http://twitter.com/eddsteel/statuses/26723653780
+  tags: *id007
+  title: 
+  url: http://twitter.com/eddsteel/statuses/26723653780
+- !ruby/object:Tweet 
+  author: eddsteel
+  content: Bier Bikes Banned! http://gu.com/p/2k7ev/tw apparently due to rowdiness, traffic and all round orsumness.
+  date: 2010-10-06 19:58:43 +01:00
+  meta: !ruby/object:Meta 
+    quoting: 
+    recipient: 
+    response_id: 
+    tags: &id008 []
+
+  source: :twitter
+  source_url: http://twitter.com/eddsteel/statuses/26576568675
+  tags: *id008
+  title: 
+  url: http://twitter.com/eddsteel/statuses/26576568675
+- !ruby/object:SharedLink 
+  author: 
+  content: ""
+  date: 2010-10-06 13:20:17 +01:00
+  meta: 
+  source: :delicious
+  source_url: http://www.delicious.com/url/add4fe2626271457e11ee9392759765d#esteel
+  tags: 
+  - book
+  title: jQuery Fundamentals
+  url: http://jqfundamentals.com/book/book.html
+- !ruby/object:SharedItem 
+  author: 
+  content: |-
+    
+    Predictably brilliant. I love the lifeboats crossing Troll Bay from Digg to Reddit
+  date: 2010-10-06 11:42:44 Z
+  meta: 
+  source: :google
+  source_url: tag:google.com,2005:reader/item/ed091514b4d49b3d
+  tags: []
+
+  title: Online Communities 2
+  url: http://xkcd.com/802/
+- !ruby/object:SharedLink 
+  author: 
+  content: ""
+  date: 2010-10-05 07:12:10 +01:00
+  meta: 
+  source: :delicious
+  source_url: http://www.delicious.com/url/70f896d0ea142330417d3a178d0196aa#esteel
+  tags: 
+  - Vim
+  title: nvie.com - How I boosted my Vim
+  url: http://nvie.com/posts/how-i-boosted-my-vim/
+- !ruby/object:Tweet 
+  author: eddsteel
+  content: "<blockquote>Aw, Will Iam's name's well cool izzen it? Ah'm mebbes ganna change mei name tuh Cher Why Aye. #XFactor</blockquote>"
+  date: 2010-10-03 11:18:20 +01:00
+  meta: !ruby/object:Meta 
+    quoting: CherylKerl
+    recipient: 
+    response_id: 
+    tags: &id009 
+      - :XFactor
+  source: :twitter
+  source_url: http://twitter.com/eddsteel/statuses/26255296168
+  tags: *id009
+  title: 
+  url: http://twitter.com/eddsteel/statuses/26255296168
+- !ruby/object:Tweet 
+  author: eddsteel
+  content: "<blockquote>The Facebook API: A Case Study in Not Caring About Developers - http://bit.ly/d0Jeef</blockquote>"
+  date: 2010-10-03 11:13:23 +01:00
+  meta: !ruby/object:Meta 
+    quoting: smashingmag
+    recipient: 
+    response_id: 
+    tags: &id010 []
+
+  source: :twitter
+  source_url: http://twitter.com/eddsteel/statuses/26255062553
+  tags: *id010
+  title: 
+  url: http://twitter.com/eddsteel/statuses/26255062553
+- !ruby/object:Tweet 
+  author: eddsteel
+  content: Life is good when you're a wujek.
+  date: 2010-10-01 20:06:36 +01:00
+  meta: !ruby/object:Meta 
+    quoting: 
+    recipient: 
+    response_id: 
+    tags: &id011 []
+
+  source: :twitter
+  source_url: http://twitter.com/eddsteel/statuses/26107322745
+  tags: *id011
+  title: 
+  url: http://twitter.com/eddsteel/statuses/26107322745
+- !ruby/object:SharedItem 
+  author: 
+  content: |-
+    
+    Atheists and agnostics have a wider religious knowledge than the religious. Not so surprising, the religious are more likely to think there's only one religion worth knowing about.
+  date: 2010-09-28 18:51:59 Z
+  meta: 
+  source: :google
+  source_url: tag:google.com,2005:reader/item/a9bf621b53b3df7a
+  tags: []
+
+  title: Faith and knowledge
+  url: http://kottke.org/10/09/faith-and-knowledge
+- !ruby/object:SharedLink 
+  author: 
+  content: "&quot;The bottom line is currently there is nothing that you cannot do to someone\xE2\x80\x99s Diaspora account, absolutely nothing&quot;. Ouch."
+  date: 2010-09-28 17:15:42 +01:00
+  meta: 
+  source: :delicious
+  source_url: http://www.delicious.com/url/147d6d032b53b78859f97e768883cfa0#esteel
+  tags: 
+  - security
+  title: "Security Lessons Learned From The Diaspora Launch: MicroISV on a Shoestring"
+  url: http://www.kalzumeus.com/2010/09/22/security-lessons-learned-from-the-diaspora-launch/
+- !ruby/object:Tweet 
+  author: eddsteel
+  content: " Totally"
+  date: 2010-09-28 07:23:52 +01:00
+  meta: !ruby/object:Meta 
+    quoting: 
+    recipient: Balaban
+    response_id: 
+    tags: &id012 []
+
+  source: :twitter
+  source_url: http://twitter.com/eddsteel/statuses/25761712712
+  tags: *id012
+  title: 
+  url: http://twitter.com/eddsteel/statuses/25761712712
+- !ruby/object:Tweet 
+  author: eddsteel
+  content: " chromium (free part of chrome) is distributed through normal package channels- might be less painful."
+  date: 2010-09-27 08:41:51 +01:00
+  meta: !ruby/object:Meta 
+    quoting: 
+    recipient: polemic
+    response_id: 
+    tags: &id013 []
+
+  source: :twitter
+  source_url: http://twitter.com/eddsteel/statuses/25666936047
+  tags: *id013
+  title: 
+  url: http://twitter.com/eddsteel/statuses/25666936047
+- !ruby/object:Tweet 
+  author: eddsteel
+  content: " I do the same, only I'm 'load testing'"
+  date: 2010-09-16 19:10:13 +01:00
+  meta: !ruby/object:Meta 
+    quoting: 
+    recipient: Balaban
+    response_id: 
+    tags: &id014 []
+
+  source: :twitter
+  source_url: http://twitter.com/eddsteel/statuses/24685893089
+  tags: *id014
+  title: 
+  url: http://twitter.com/eddsteel/statuses/24685893089
+- !ruby/object:Tweet 
+  author: eddsteel
+  content: <blockquote>Pope Benedict urges the UK to resist "aggressive secularism", UK urges Pope Benedict to buy Pope On A Rope Smoking Dope ...</blockquote>
+  date: 2010-09-16 18:14:35 +01:00
+  meta: !ruby/object:Meta 
+    quoting: ABridgwater
+    recipient: 
+    response_id: 
+    tags: &id015 []
+
+  source: :twitter
+  source_url: http://twitter.com/eddsteel/statuses/24682015348
+  tags: *id015
+  title: 
+  url: http://twitter.com/eddsteel/statuses/24682015348
+- !ruby/object:Tweet 
+  author: eddsteel
+  content: Can anyone tell me a country that's not ashamed of its 'aggressive secularism' (#pope) so I can go and  live there in peace?
+  date: 2010-09-16 18:13:49 +01:00
+  meta: !ruby/object:Meta 
+    quoting: 
+    recipient: 
+    response_id: 
+    tags: &id016 
+      - :pope
+  source: :twitter
+  source_url: http://twitter.com/eddsteel/statuses/24681958015
+  tags: *id016
+  title: 
+  url: http://twitter.com/eddsteel/statuses/24681958015
+- !ruby/object:Tweet 
+  author: eddsteel
+  content: "<blockquote>Brilliant, just brilliant....  http://yfrog.com/m9l2bj Thanks @johnrentoul. #pope</blockquote>"
+  date: 2010-09-16 12:53:51 +01:00
+  meta: !ruby/object:Meta 
+    quoting: SallyBercow
+    recipient: 
+    response_id: 
+    tags: &id017 
+      - :pope
+  source: :twitter
+  source_url: http://twitter.com/eddsteel/statuses/24656990563
+  tags: *id017
+  title: 
+  url: http://twitter.com/eddsteel/statuses/24656990563
+- !ruby/object:SharedLink 
+  author: 
+  content: "NatWest: Helpful banking. &quot;No, you can&#039;t tell us you&#039;re taking your card abroad, but you&#039;d better take our international call centre number, because you can be sure we&#039;ll block the bastard.&quot;"
+  date: 2010-09-16 10:44:10 +01:00
+  meta: 
+  source: :delicious
+  source_url: http://www.delicious.com/url/325a0135f3b2ed2e5177b418e27d3116#esteel
+  tags: 
+  - badservice
+  title: NatWest Help
+  url: https://www.questions.natwest.com/RBSG/index?page=content&id=FA101
+- !ruby/object:Tweet 
+  author: eddsteel
+  content: " Wow! That *would* be worthy of an incremented version number!"
+  date: 2010-09-15 22:35:53 +01:00
+  meta: !ruby/object:Meta 
+    quoting: 
+    recipient: CSNandP
+    response_id: 
+    tags: &id018 []
+
+  source: :twitter
+  source_url: http://twitter.com/eddsteel/statuses/24605473942
+  tags: *id018
+  title: 
+  url: http://twitter.com/eddsteel/statuses/24605473942
+- !ruby/object:Tweet 
+  author: eddsteel
+  content: "#IE9. I can barely contain the excitement. I'll bet it's their least shitty yet!"
+  date: 2010-09-15 19:13:34 +01:00
+  meta: !ruby/object:Meta 
+    quoting: 
+    recipient: 
+    response_id: 
+    tags: &id019 
+      - :IE9
+  source: :twitter
+  source_url: http://twitter.com/eddsteel/statuses/24592282165
+  tags: *id019
+  title: 
+  url: http://twitter.com/eddsteel/statuses/24592282165
+- !ruby/object:SharedItem 
+  author: 
+  content: "\n\
+    SpEak You're bRanes on common sense. I think dealing with have your sayers is starting to really get to them.<blockquote>\n\
+    Common sense is the artificial inflation of the value of meagre knowledge. It\xE2\x80\x99s the intellectual equivalent of \xE2\x80\x98having a good personality\xE2\x80\x99. It\xE2\x80\x99s the consolation prize for those too dim to achieve anything beyond remembering to breathe for long enough to reproduce. It\xE2\x80\x99s the same level of earthy wisdom that deems modern art \xE2\x80\x98crap\xE2\x80\x99, pure research \xE2\x80\x98a waste of time\xE2\x80\x99 and Strictly Come Dancing \xE2\x80\x98entertainment\xE2\x80\x99. It\xE2\x80\x99s the undentable armour of the stupid, and you\xE2\x80\x99ll never catch them without it. You take it away from them, they\xE2\x80\x99ve got nothing. They\xE2\x80\x99re left naked in the laughing face of their own inferiority, with no choice but to confront the meandering pointlessness of their lives. Which is a lot to confront all in one go.</blockquote>"
+  date: 2010-09-14 11:14:04 Z
+  meta: 
+  source: :google
+  source_url: tag:google.com,2005:reader/item/b8c5de9a45f03633
+  tags: []
+
+  title: I Proclaim Myself As Higher Knowledge Than Thee
+  url: http://ifyoulikeitsomuchwhydontyougolivethere.com/2010/09/14/i-proclaim-myself-as-higher-knowledge-than-thee/
+- !ruby/object:SharedLink 
+  author: 
+  content: An overview of what&#039;s around, noSQL-wise.
+  date: 2010-09-13 12:28:12 +01:00
+  meta: 
+  source: :delicious
+  source_url: http://www.delicious.com/url/4383b45d4d820e9c10bfa0398ef6c5e7#esteel
+  tags: 
+  - heroku
+  title: NoSQL, Heroku, and You
+  url: http://blog.heroku.com/archives/2010/7/20/nosql/
+- !ruby/object:SharedLink 
+  author: 
+  content: ""
+  date: 2010-09-09 12:50:55 +01:00
+  meta: 
+  source: :delicious
+  source_url: http://www.delicious.com/url/72c52df9e0b76526170fafef36364d28#esteel
+  tags: 
+  - heroku
+  title: HTTP caching
+  url: http://docs.heroku.com/http-caching?utm_medium=email&utm_source=EmailBlast&utm_content=480998849&utm_campaign=HerokuSeptemberNewsletter-VersionB&utm_term=varnishdocumentation
+- !ruby/object:SharedLink 
+  author: 
+  content: ""
+  date: 2010-09-09 12:46:13 +01:00
+  meta: 
+  source: :delicious
+  source_url: http://www.delicious.com/url/298e492daba610813d84953d5c938d61#esteel
+  tags: 
+  - diy
+  title: Building a Wifi Radio
+  url: http://mightyohm.com/blog/2008/10/building-a-wifi-radio-part-1-introduction/
+- !ruby/object:SharedItem 
+  author: 
+  content: |-
+    
+    Yikes. Piers Morgan will replace Larry King.
+  date: 2010-09-08 18:09:53 Z
+  meta: 
+  source: :google
+  source_url: tag:google.com,2005:reader/item/5ea917e34dedef5e
+  tags: []
+
+  title: Morgan confirmed as heir to King
+  url: http://www.guardian.co.uk/media/2010/sep/08/piers-morgan-larry-king-chatshow
+- !ruby/object:SharedItem 
+  author: Dan Milmo
+  content: 
+  date: 2010-09-08 18:09:41 Z
+  meta: 
+  source: :google
+  source_url: tag:google.com,2005:reader/item/947f4c7aaea8c92b
+  tags: []
+
+  title: UK rail most expensive in Europe
+  url: http://www.guardian.co.uk/world/2010/sep/08/britain-railways-most-expensive-europe
+- !ruby/object:SharedLink 
+  author: 
+  content: COBOL ON COGS+SUPPORTS HYPERLINKS#AND#AN IMPRESSIVE#ARRAY OF SOME_OF\THE_MOST\USEFUL_HTML TAGS SUCH AS &lt;BLINK&gt;, &lt;U&gt;, &lt;BRIGHT&gt; AND &lt;F1&gt;.
+  date: 2010-09-07 11:58:59 +01:00
+  meta: 
+  source: :delicious
+  source_url: http://www.delicious.com/url/45da0ab2a9dc230ac856a47957443abb#esteel
+  tags: 
+  - dtigtag
+  title: COBOL ON COGS
+  url: http://www.coboloncogs.org/INDEX.HTM
+- !ruby/object:SharedItem 
+  author: Becky Stern
+  content: 
+  date: 2010-09-02 19:00:22 Z
+  meta: 
+  source: :google
+  source_url: tag:google.com,2005:reader/item/fdfcbb7d3ccda632
+  tags: []
+
+  title: Leafy zip ties
+  url: http://blog.makezine.com/archive/2010/09/leafy_zip_ties.html
+- !ruby/object:SharedItem 
+  author: Erin Meister
+  content: 
+  date: 2010-09-02 12:00:00 Z
+  meta: 
+  source: :google
+  source_url: tag:google.com,2005:reader/item/cf96d0a35dd81bbd
+  tags: []
+
+  title: Tasting Coffee Tea, Tea Infused with Dried Coffee Cherry Husks
+  url: http://feeds.seriouseats.com/~r/seriouseatsfeaturesvideos/~3/lTG84Blt290/what-is-coffee-tea-infused-with-dried-coffee-cherry-husks.html
+- !ruby/object:SharedItem 
+  author: Greg Ross
+  content: 
+  date: 2010-09-02 03:46:10 Z
+  meta: 
+  source: :google
+  source_url: tag:google.com,2005:reader/item/16304bb8b608514f
+  tags: []
+
+  title: The Knobe Effect
+  url: http://feedproxy.google.com/~r/FutilityCloset/~3/ekOeJguMnoQ/
+- !ruby/object:SharedItem 
+  author: James McMahon
+  content: 
+  date: 2010-08-31 15:10:15 Z
+  meta: 
+  source: :google
+  source_url: tag:google.com,2005:reader/item/06239b5948600977
+  tags: []
+
+  title: Is this the future of music videos?
+  url: http://www.guardian.co.uk/music/musicblog/2010/aug/31/arcade-fire-future-music-videos
+- !ruby/object:SharedLink 
+  author: 
+  content: Brief description of Java 7&#039;s try-with-resources block
+  date: 2010-08-26 12:24:52 +01:00
+  meta: 
+  source: :delicious
+  source_url: http://www.delicious.com/url/d8b737897962793548f35d0546c5976d#esteel
+  tags: 
+  - dtigtag
+  title: "Java 7 : try-with-resources | @Blog(\"Baptiste Wicht\")"
+  url: http://www.baptiste-wicht.com/2010/08/java-7-try-with-resources-statement/
+- !ruby/object:SharedLink 
+  author: 
+  content: Javascript graphing designed for live streaming data - reading data from web sockets. Webkit/opera only
+  date: 2010-08-23 12:18:16 +01:00
+  meta: 
+  source: :delicious
+  source_url: http://www.delicious.com/url/0dca0be0681ac0d89bb9ffa7d08e0f39#esteel
+  tags: 
+  - javascript
+  title: Smoothie Charts
+  url: http://smoothiecharts.org/
+- !ruby/object:SharedLink 
+  author: 
+  content: A serious discussion of the javascript language
+  date: 2010-08-22 21:37:20 +01:00
+  meta: 
+  source: :delicious
+  source_url: http://www.delicious.com/url/772680f6cf91386e4ebdd2b19efc0fdd#esteel
+  tags: 
+  - javascript
+  title: "JavaScript: The Good Parts: Amazon.co.uk: Douglas Crockford: Books"
+  url: http://www.amazon.co.uk/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742
+- !ruby/object:SharedLink 
+  author: 
+  content: ""
+  date: 2010-08-20 16:26:23 +01:00
+  meta: 
+  source: :delicious
+  source_url: http://www.delicious.com/url/192343ecdb415925ee76023ca9d42ae5#esteel
+  tags: 
+  - make
+  title: "DIY soldering iron stand \xE2\x80\x94 DIY How-to from Make: Projects"
+  url: http://makeprojects.com/Project/DIY-soldering-iron-stand/213/1
+- !ruby/object:SharedItem 
+  author: Mark Sigal
+  content: 
+  date: 2010-02-10 18:56:22 Z
+  meta: 
+  source: :google
+  source_url: tag:google.com,2005:reader/item/6e92c940d8826747
+  tags: []
+
+  title: "Google Buzz: Is it Project, Product or Platform?"
+  url: http://feedproxy.google.com/~r/oreilly/radar/atom/~3/RYyRXydd7vg/google-buzz-is-it-project-prod.html
+- !ruby/object:SharedItem 
+  author: Jeff Atwood
+  content: 
+  date: 2010-01-08 13:00:00 Z
+  meta: 
+  source: :google
+  source_url: tag:google.com,2005:reader/item/f85ce5887d18d5ff
+  tags: []
+
+  title: A Democracy of Netbooks
+  url: http://www.codinghorror.com/blog/archives/001318.html
+- !ruby/object:SharedItem 
+  author: Sven Erik Knop
+  content: |
+    
+
+  date: 2009-09-30 09:37:25 Z
+  meta: 
+  source: :google
+  source_url: tag:google.com,2005:reader/item/23a5301d14e33c90
+  tags: []
+
+  title: Build server strategies
+  url: http://blog.perforce.com/blog/?p=1627
+- !ruby/object:SharedItem 
+  author: Alok Jha
+  content: 
+  date: 2009-09-25 09:38:45 Z
+  meta: 
+  source: :google
+  source_url: tag:google.com,2005:reader/item/be2d76b36f16ca76
+  tags: []
+
+  title: How I found the light
+  url: http://www.guardian.co.uk/environment/2009/sep/25/eco-lightbulbs-energy-saving-bills
+- !ruby/object:SharedItem 
+  author: 
+  content: 
+  date: 2009-08-24 11:19:54 Z
+  meta: 
+  source: :google
+  source_url: tag:google.com,2005:reader/item/6d0e40aa4bacec44
+  tags: []
+
+  title: Tech Support Cheat Sheet (via feedly)
+  url: http://xkcd.com/627/
+- !ruby/object:SharedItem 
+  author: 
+  content: 
+  date: 2009-06-30 09:37:09 Z
+  meta: 
+  source: :google
+  source_url: tag:google.com,2005:reader/item/d128cbc19cd57bdb
+  tags: []
+
+  title: Birdfeed (via feedly)
+  url: http://birdfeedapp.com/
+- !ruby/object:SharedItem 
+  author: 
+  content: 
+  date: 2009-06-26 11:39:10 Z
+  meta: 
+  source: :google
+  source_url: tag:google.com,2005:reader/item/233e48a983b22fc7
+  tags: []
+
+  title: Ponyo trailer (via feedly)
+  url: http://www.kottke.org/09/06/ponyo-trailer

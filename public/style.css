@@ -1,0 +1,157 @@
+/**
+ * palette: white, 3 greys, black, blue.
+ * #fff
+ * #eee
+ * #555
+ * #333
+ * #000
+ * #d0e0e5
+ *
+ */
+
+@font-face {
+  font-family: 'Bookman';
+  src: url('fonts/bookman-light-demi.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bookman';
+  src: url('fonts/bookman-light.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family:  'Bookman', 'Times New Roman', 
+    'Times', serif;
+  font-size: 0.7em;
+  color: #333;
+  margin: 0;
+  border-top: 7px solid #d0e0e5;
+}
+
+.cloud {
+  background: white;
+  background: -moz-linear-gradient(bottom, #eee, #fff);
+  background: -webkit-gradient(linear, left top, left bottom, 
+    from(#fff), to(#eee));
+}
+
+h1 {
+    margin: 0 0 1em 0;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #555;
+}
+
+blockquote {
+  margin: 1em 0;
+  border-left: 3px solid #D0E0F5;
+  padding: 0 0 0 3em;
+}
+
+article, section, footer { display:block;}
+
+article {
+  display: block;
+  width: 60%;
+  margin: 4em auto;
+}
+
+footer {
+  margin: 1em auto;
+}
+
+
+section {
+  margin: 0 auto;
+  text-align: justify;
+}
+
+section#main {
+  width: 100%;
+  clear:both;
+  padding-bottom: 3em;
+}
+
+
+h1 {
+  font-size: 1.4em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+article {
+  font-size: 1em;
+}
+
+section.content {
+  font-size: 1.4em;
+}
+
+article footer span {
+  margin: 0 0.75em 0 0;
+}
+
+/* header */
+
+section#header
+{
+  border-top: 5px solid #eee;
+  text-align: center;
+}
+
+header.main
+{
+	display: block;
+	padding: 0em 0em 0em 0em;
+}
+
+header.main hgroup
+{
+	display: block;
+  margin: 0 auto;
+}
+
+header.main h1
+{
+	font-size: 2.4em;
+	display: block;
+	padding: 0 2em 0 0;
+	margin: 0 0 -20px 3em;
+}
+
+header.main h2
+{
+	display: block;
+	font-size: 7.2em;
+	line-height: 1em; /* of 7.2 */
+	color: #eee;
+  margin: 0 0 -20px 0;
+}
+
+#more
+{
+  font-size: 1.8em;
+  padding: 0.5em;
+  margin: 4px 0 0 0;
+  text-align: center;
+  background-color: black
+}
+
+#more a
+{
+  color: #d0e0e5;
+  margin: 1em;
+}
