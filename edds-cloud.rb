@@ -1,5 +1,5 @@
 #!/usr/bin/ruby -w
-#
+# GPL
 
 require 'rubygems'
 require 'sinatra'
