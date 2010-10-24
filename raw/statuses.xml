@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<statuses type="array">
+<status>
+  <created_at>Fri Apr 16 17:53:31 +0000 2010</created_at>
+  <id>12296169211</id>
+  <text>@FsMidnightDisco: but I thought they banned porn from the iStore?</text>
+  <source>&lt;a href=&quot;http://mobile.twitter.com&quot; rel=&quot;nofollow&quot;&gt;mobile web&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>12289272017</in_reply_to_status_id>
+  <in_reply_to_user_id>65070272</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>FsMidnightDisco</in_reply_to_screen_name>
+  <user>
+    <id>5505502</id>
+    <name>Edward Steel</name>
+    <screen_name>eddsteel</screen_name>
+    <location>London, UK</location>
+    <description></description>
+    <profile_image_url>http://a1.twimg.com/profile_images/21684812/edd_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>36</followers_count>
+    <profile_background_color>eeeeee</profile_background_color>
+    <profile_text_color>222222</profile_text_color>
+    <profile_link_color>204A87</profile_link_color>
+    <profile_sidebar_fill_color>f0e2e2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CC0000</profile_sidebar_border_color>
+    <friends_count>32</friends_count>
+    <created_at>Wed Apr 25 18:45:19 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/612702/bg.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <notifications>false</notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following>true</following>
+    <statuses_count>151</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Wed Apr 14 17:45:35 +0000 2010</created_at>
+  <id>12175503421</id>
+  <text>Some headlines genuinely make the world better. &quot;Pope will come face to face with giant phallus&quot; is one. #metro #genius</text>
+  <source>&lt;a href=&quot;http://mobile.twitter.com&quot; rel=&quot;nofollow&quot;&gt;mobile web&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>5505502</id>
+    <name>Edward Steel</name>
+    <screen_name>eddsteel</screen_name>
+    <location>London, UK</location>
+    <description></description>
+    <profile_image_url>http://a1.twimg.com/profile_images/21684812/edd_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>36</followers_count>
+    <profile_background_color>eeeeee</profile_background_color>
+    <profile_text_color>222222</profile_text_color>
+    <profile_link_color>204A87</profile_link_color>
+    <profile_sidebar_fill_color>f0e2e2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CC0000</profile_sidebar_border_color>
+    <friends_count>32</friends_count>
+    <created_at>Wed Apr 25 18:45:19 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/612702/bg.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>151</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Sun Apr 11 14:58:42 +0000 2010</created_at>
+  <id>11994450701</id>
+  <text>I used to have lungs. Now I have a clean bathroom! Thanks #Dettol!</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>5505502</id>
+    <name>Edward Steel</name>
+    <screen_name>eddsteel</screen_name>
+    <location>London, UK</location>
+    <description></description>
+    <profile_image_url>http://a1.twimg.com/profile_images/21684812/edd_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>36</followers_count>
+    <profile_background_color>eeeeee</profile_background_color>
+    <profile_text_color>222222</profile_text_color>
+    <profile_link_color>204A87</profile_link_color>
+    <profile_sidebar_fill_color>f0e2e2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CC0000</profile_sidebar_border_color>
+    <friends_count>32</friends_count>
+    <created_at>Wed Apr 25 18:45:19 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/612702/bg.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>151</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Fri Apr 09 18:31:36 +0000 2010</created_at>
+  <id>11894697329</id>
+  <text>In Streatham, one person does not really have one vote, they have the equivalent of 0.143 votes. (see http://voterpower.org.uk) #GE2010 #VPI</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>5505502</id>
+    <name>Edward Steel</name>
+    <screen_name>eddsteel</screen_name>
+    <location>London, UK</location>
+    <description></description>
+    <profile_image_url>http://a1.twimg.com/profile_images/21684812/edd_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>36</followers_count>
+    <profile_background_color>eeeeee</profile_background_color>
+    <profile_text_color>222222</profile_text_color>
+    <profile_link_color>204A87</profile_link_color>
+    <profile_sidebar_fill_color>f0e2e2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CC0000</profile_sidebar_border_color>
+    <friends_count>32</friends_count>
+    <created_at>Wed Apr 25 18:45:19 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/612702/bg.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>151</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Thu Apr 08 20:16:09 +0000 2010</created_at>
+  <id>11841326730</id>
+  <text>You know what #5alive? Yes. It is too soon to be making jokes about dodos. TV has offended me for the first time in my life.</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>5505502</id>
+    <name>Edward Steel</name>
+    <screen_name>eddsteel</screen_name>
+    <location>London, UK</location>
+    <description></description>
+    <profile_image_url>http://a1.twimg.com/profile_images/21684812/edd_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>36</followers_count>
+    <profile_background_color>eeeeee</profile_background_color>
+    <profile_text_color>222222</profile_text_color>
+    <profile_link_color>204A87</profile_link_color>
+    <profile_sidebar_fill_color>f0e2e2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CC0000</profile_sidebar_border_color>
+    <friends_count>32</friends_count>
+    <created_at>Wed Apr 25 18:45:19 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/612702/bg.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>151</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Mon Apr 05 14:51:51 +0000 2010</created_at>
+  <id>11644094862</id>
+  <text>&quot;THANK YOU FOX NEWS FOR KEEPING US INFROMED&quot;. Classic teabonics. http://www.flickr.com/photos/pargon/4469684454/in/set-72157623594187379/</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>5505502</id>
+    <name>Edward Steel</name>
+    <screen_name>eddsteel</screen_name>
+    <location>London, UK</location>
+    <description></description>
+    <profile_image_url>http://a1.twimg.com/profile_images/21684812/edd_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>36</followers_count>
+    <profile_background_color>eeeeee</profile_background_color>
+    <profile_text_color>222222</profile_text_color>
+    <profile_link_color>204A87</profile_link_color>
+    <profile_sidebar_fill_color>f0e2e2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CC0000</profile_sidebar_border_color>
+    <friends_count>32</friends_count>
+    <created_at>Wed Apr 25 18:45:19 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/612702/bg.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>151</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Fri Apr 02 17:54:36 +0000 2010</created_at>
+  <id>11492891392</id>
+  <text>@mattcsaki promised shoutout from the C&#246;lner Hofbr&#228;u Fr&#252;h! Where the K&#246;lsch flows like champagne</text>
+  <source>&lt;a href=&quot;http://mobile.twitter.com&quot; rel=&quot;nofollow&quot;&gt;mobile web&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id>28026137</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>mattcsaki</in_reply_to_screen_name>
+  <user>
+    <id>5505502</id>
+    <name>Edward Steel</name>
+    <screen_name>eddsteel</screen_name>
+    <location>London, UK</location>
+    <description></description>
+    <profile_image_url>http://a1.twimg.com/profile_images/21684812/edd_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>36</followers_count>
+    <profile_background_color>eeeeee</profile_background_color>
+    <profile_text_color>222222</profile_text_color>
+    <profile_link_color>204A87</profile_link_color>
+    <profile_sidebar_fill_color>f0e2e2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CC0000</profile_sidebar_border_color>
+    <friends_count>32</friends_count>
+    <created_at>Wed Apr 25 18:45:19 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/612702/bg.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>151</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Thu Apr 01 09:11:04 +0000 2010</created_at>
+  <id>11415702675</id>
+  <text>Seems most canadians like to travel in full national costume (roots hoodies). I like it.</text>
+  <source>&lt;a href=&quot;http://mobile.twitter.com&quot; rel=&quot;nofollow&quot;&gt;mobile web&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>5505502</id>
+    <name>Edward Steel</name>
+    <screen_name>eddsteel</screen_name>
+    <location>London, UK</location>
+    <description></description>
+    <profile_image_url>http://a1.twimg.com/profile_images/21684812/edd_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>36</followers_count>
+    <profile_background_color>eeeeee</profile_background_color>
+    <profile_text_color>222222</profile_text_color>
+    <profile_link_color>204A87</profile_link_color>
+    <profile_sidebar_fill_color>f0e2e2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CC0000</profile_sidebar_border_color>
+    <friends_count>32</friends_count>
+    <created_at>Wed Apr 25 18:45:19 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/612702/bg.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>151</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Wed Mar 31 16:23:33 +0000 2010</created_at>
+  <id>11374627865</id>
+  <text>Mice in the house of lords :) http://bit.ly/bRgi2n (via @benhammersley, @jkottke)</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>5505502</id>
+    <name>Edward Steel</name>
+    <screen_name>eddsteel</screen_name>
+    <location>London, UK</location>
+    <description></description>
+    <profile_image_url>http://a1.twimg.com/profile_images/21684812/edd_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>36</followers_count>
+    <profile_background_color>eeeeee</profile_background_color>
+    <profile_text_color>222222</profile_text_color>
+    <profile_link_color>204A87</profile_link_color>
+    <profile_sidebar_fill_color>f0e2e2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CC0000</profile_sidebar_border_color>
+    <friends_count>32</friends_count>
+    <created_at>Wed Apr 25 18:45:19 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/612702/bg.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>151</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Fri Mar 26 18:07:56 +0000 2010</created_at>
+  <id>11102534169</id>
+  <text>@webmink Mine, Keith Hill, replied on topic re:#debill promising parliamentary scrutiny. I must set him straight on a few things though.</text>
+  <source>&lt;a href=&quot;http://mobile.twitter.com&quot; rel=&quot;nofollow&quot;&gt;mobile web&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>11091163089</in_reply_to_status_id>
+  <in_reply_to_user_id>752133</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>webmink</in_reply_to_screen_name>
+  <user>
+    <id>5505502</id>
+    <name>Edward Steel</name>
+    <screen_name>eddsteel</screen_name>
+    <location>London, UK</location>
+    <description></description>
+    <profile_image_url>http://a1.twimg.com/profile_images/21684812/edd_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>36</followers_count>
+    <profile_background_color>eeeeee</profile_background_color>
+    <profile_text_color>222222</profile_text_color>
+    <profile_link_color>204A87</profile_link_color>
+    <profile_sidebar_fill_color>f0e2e2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CC0000</profile_sidebar_border_color>
+    <friends_count>32</friends_count>
+    <created_at>Wed Apr 25 18:45:19 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/612702/bg.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>151</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Mar 23 16:42:19 +0000 2010</created_at>
+  <id>10933505846</id>
+  <text>http://j.mp/cT67KM: A speech from PM containing the words &quot;semantic web&quot;, &quot;silo&quot;, &quot;walled garden&quot; and &quot;headed by Sir Tim Berners Lee&quot;. wow.</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>5505502</id>
+    <name>Edward Steel</name>
+    <screen_name>eddsteel</screen_name>
+    <location>London, UK</location>
+    <description></description>
+    <profile_image_url>http://a1.twimg.com/profile_images/21684812/edd_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>36</followers_count>
+    <profile_background_color>eeeeee</profile_background_color>
+    <profile_text_color>222222</profile_text_color>
+    <profile_link_color>204A87</profile_link_color>
+    <profile_sidebar_fill_color>f0e2e2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CC0000</profile_sidebar_border_color>
+    <friends_count>32</friends_count>
+    <created_at>Wed Apr 25 18:45:19 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/612702/bg.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>151</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Fri Mar 12 22:30:17 +0000 2010</created_at>
+  <id>10393141803</id>
+  <text>@Balaban: noted. It's now approaching 5. Will noone do something?</text>
+  <source>&lt;a href=&quot;http://mobile.twitter.com&quot; rel=&quot;nofollow&quot;&gt;mobile web&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id>10369968910</in_reply_to_status_id>
+  <in_reply_to_user_id>15780677</in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name>Balaban</in_reply_to_screen_name>
+  <user>
+    <id>5505502</id>
+    <name>Edward Steel</name>
+    <screen_name>eddsteel</screen_name>
+    <location>London, UK</location>
+    <description></description>
+    <profile_image_url>http://a1.twimg.com/profile_images/21684812/edd_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>36</followers_count>
+    <profile_background_color>eeeeee</profile_background_color>
+    <profile_text_color>222222</profile_text_color>
+    <profile_link_color>204A87</profile_link_color>
+    <profile_sidebar_fill_color>f0e2e2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CC0000</profile_sidebar_border_color>
+    <friends_count>32</friends_count>
+    <created_at>Wed Apr 25 18:45:19 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/612702/bg.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>151</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Fri Mar 12 08:01:14 +0000 2010</created_at>
+  <id>10362735878</id>
+  <text>How many consecutive days can someone play 'My heart will go on' on a phone on a bus before murder is socially acceptable? 2? 4?</text>
+  <source>&lt;a href=&quot;http://mobile.twitter.com&quot; rel=&quot;nofollow&quot;&gt;mobile web&lt;/a&gt;</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>5505502</id>
+    <name>Edward Steel</name>
+    <screen_name>eddsteel</screen_name>
+    <location>London, UK</location>
+    <description></description>
+    <profile_image_url>http://a1.twimg.com/profile_images/21684812/edd_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>36</followers_count>
+    <profile_background_color>eeeeee</profile_background_color>
+    <profile_text_color>222222</profile_text_color>
+    <profile_link_color>204A87</profile_link_color>
+    <profile_sidebar_fill_color>f0e2e2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CC0000</profile_sidebar_border_color>
+    <friends_count>32</friends_count>
+    <created_at>Wed Apr 25 18:45:19 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/612702/bg.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>151</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Tue Mar 02 16:06:24 +0000 2010</created_at>
+  <id>9880205966</id>
+  <text>Wow. If you come to Amsterdam, stay at #citizenM! http://www.citizenm.com</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>5505502</id>
+    <name>Edward Steel</name>
+    <screen_name>eddsteel</screen_name>
+    <location>London, UK</location>
+    <description></description>
+    <profile_image_url>http://a1.twimg.com/profile_images/21684812/edd_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>36</followers_count>
+    <profile_background_color>eeeeee</profile_background_color>
+    <profile_text_color>222222</profile_text_color>
+    <profile_link_color>204A87</profile_link_color>
+    <profile_sidebar_fill_color>f0e2e2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CC0000</profile_sidebar_border_color>
+    <friends_count>32</friends_count>
+    <created_at>Wed Apr 25 18:45:19 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/612702/bg.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>151</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Thu Feb 25 11:38:55 +0000 2010</created_at>
+  <id>9621911043</id>
+  <text>&quot;You were asked much, and you did your darnedest, even if your darnedest totally sucked&quot; http://ie6funeral.com</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>5505502</id>
+    <name>Edward Steel</name>
+    <screen_name>eddsteel</screen_name>
+    <location>London, UK</location>
+    <description></description>
+    <profile_image_url>http://a1.twimg.com/profile_images/21684812/edd_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>36</followers_count>
+    <profile_background_color>eeeeee</profile_background_color>
+    <profile_text_color>222222</profile_text_color>
+    <profile_link_color>204A87</profile_link_color>
+    <profile_sidebar_fill_color>f0e2e2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CC0000</profile_sidebar_border_color>
+    <friends_count>32</friends_count>
+    <created_at>Wed Apr 25 18:45:19 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/612702/bg.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>151</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+<status>
+  <created_at>Mon Feb 15 20:23:52 +0000 2010</created_at>
+  <id>9154580398</id>
+  <text>Thanks @balaban!! They fit like gloves! Ha!</text>
+  <source>web</source>
+  <truncated>false</truncated>
+  <in_reply_to_status_id></in_reply_to_status_id>
+  <in_reply_to_user_id></in_reply_to_user_id>
+  <favorited>false</favorited>
+  <in_reply_to_screen_name></in_reply_to_screen_name>
+  <user>
+    <id>5505502</id>
+    <name>Edward Steel</name>
+    <screen_name>eddsteel</screen_name>
+    <location>London, UK</location>
+    <description></description>
+    <profile_image_url>http://a1.twimg.com/profile_images/21684812/edd_normal.png</profile_image_url>
+    <url></url>
+    <protected>false</protected>
+    <followers_count>36</followers_count>
+    <profile_background_color>eeeeee</profile_background_color>
+    <profile_text_color>222222</profile_text_color>
+    <profile_link_color>204A87</profile_link_color>
+    <profile_sidebar_fill_color>f0e2e2</profile_sidebar_fill_color>
+    <profile_sidebar_border_color>CC0000</profile_sidebar_border_color>
+    <friends_count>32</friends_count>
+    <created_at>Wed Apr 25 18:45:19 +0000 2007</created_at>
+    <favourites_count>3</favourites_count>
+    <utc_offset>0</utc_offset>
+    <time_zone>London</time_zone>
+    <profile_background_image_url>http://a1.twimg.com/profile_background_images/612702/bg.png</profile_background_image_url>
+    <profile_background_tile>true</profile_background_tile>
+    <notifications></notifications>
+    <geo_enabled>false</geo_enabled>
+    <verified>false</verified>
+    <following></following>
+    <statuses_count>151</statuses_count>
+    <lang>en</lang>
+    <contributors_enabled>false</contributors_enabled>
+  </user>
+  <geo/>
+  <coordinates/>
+  <place/>
+  <contributors/>
+</status>
+</statuses>

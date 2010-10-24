@@ -1,0 +1,15 @@
+Code for my site.
+
+All information is gathered from other parts of the web, and stored in a
+CouchDB database. At present information is gathered by RSS from google
+reader, delicous and twitter, and loaded manually.
+
+Future plans:
+
+* Automatic updating
+* Site support
+** twitter API for richer metadata
+** github commits
+** flickr activity
+
+
