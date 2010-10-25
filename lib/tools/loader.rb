@@ -2,7 +2,10 @@
 #
 # Loads from one back-end to another.
 #
-require 'lib/feed'
+d = "#{File.dirname(__FILE__)}/.."
+puts d
+$LOAD_PATH.unshift d unless $LOAD_PATH.include? d
+require 'feed'
 
 class Loader
   def initialize(inBE, outBE)
