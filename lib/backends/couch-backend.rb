@@ -12,9 +12,6 @@ class CouchBackend
   include OpenURI
   include Backend
 
-  #nasty hack to work with cloudant
-  OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
-
   @@DEF_DB_URL = ENV['CLOUDANT_URL'] || 'http://localhost:5984'
   @@DEF_DB_NAME = 'entries'
 
