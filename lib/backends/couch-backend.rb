@@ -4,12 +4,11 @@
 require File.dirname(__FILE__) + '/backend'
 require 'rubygems'
 require 'json'
-require 'rest-open-uri'
+require 'restclient'
 
 
 # TODO: extract design docs.
 class CouchBackend 
-  include OpenURI
   include Backend
 
   @@DEF_DB_URL = ENV['CLOUDANT_URL'] || 'http://localhost:5984'
@@ -42,8 +41,8 @@ class CouchBackend
     store = CouchBackend.new(db_url, db_name)
     begin
       store.curl("/#{db_name}")
-    rescue HTTPError
-      if $!.to_s =~ /^404/ # Not Found
+    rescue => e
+      if e.code == 404 # Not Found
         store.create
       else
         raise
@@ -60,8 +59,8 @@ class CouchBackend
   def add_entry(entry)
     begin
       curl("/#@db_name", :post, entry.to_json)
-    rescue HTTPError
-      if $!.to_s =~ /^409/ # Conflict
+    rescue => e
+      if e.code == 409 # Conflict
         puts "Ignoring conflict; I don't know how to update."
       else
         raise
@@ -106,19 +105,17 @@ class CouchBackend
 
  
   def curl(url='', method=:get, data=nil)
-    args = {:method=>method, 
-      'Content-Type'=>'application/json'}
-    unless(@@DB_USER.nil? || @@DB_PASS.nil?)
-      args[:http_basic_authentication] =
-        [@@DB_USER, @@DB_PASS]
+    args = {:content_type=>'application/json', :accept=>'application/json'}
+
+    resp = ''
+
+    if data.nil?
+      resp = RestClient.send method, (@db + url), args
+    else
+      resp = RestClient.send method, (@db + url), data, args
     end
 
-    unless data.nil?
-      args[:body] = data 
-      args["Content-Length"] = data.size.to_s
-    end
-
-    JSON::parse(open(@db + url, args).read)
+    JSON::parse(resp.body)
   end
 end
 
