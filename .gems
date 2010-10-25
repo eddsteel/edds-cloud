@@ -1,5 +1,5 @@
 sinatra
 json
 haml
-rest-open-uri
+restclient
 feed-normalizer
