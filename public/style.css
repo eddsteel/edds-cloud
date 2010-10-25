@@ -11,14 +11,14 @@
 
 @font-face {
   font-family: 'Bookman';
-  src: url('fonts/bookman-light-demi.ttf');
+  src: url('http://drop.io/bookman/asset/bookman-light-demi-ttf');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Bookman';
-  src: url('fonts/bookman-light.ttf');
+  src: url('http://drop.io/bookman/asset/bookman-light-ttf');
   font-weight: normal;
   font-style: normal;
 }
