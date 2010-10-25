@@ -155,6 +155,7 @@ class SharedItem < Entry
   end
 
   private 
+  # Hacky way of jumping between quotes and new content: 3 line breaks.
   def extract_content(post_content)
     doc = Hpricot.parse(post_content)
     html = ''
@@ -165,22 +166,21 @@ class SharedItem < Entry
 
       if parts.size > 2
         parts[2..-1].each do |child|
-          unless quoting
-            br = child.to_s == '<br />'
-            bcount = br ? bcount + 1 : 0
-            if bcount > 2
-              quoting = true
-              html += "<blockquote>\n"
-            else
-              html += child.to_s
-            end
+          br = child.to_s == '<br />'
+          bcount = br ? bcount + 1 : 0
+          if bcount > 2
+            quoting = !quoting
+            html += quoting ? "<blockquote><p>" : "</p></blockquote>"
+            bcount = 0
           else
             html += child.to_s
           end
         end
 
-        html += '</blockquote>' if quoting
-        html.gsub('<br /><br /><block', '<block')
+        html += '</p></blockquote>' if quoting
+        html = html.gsub('<br /><br /><blockquote>', '<blockquote>')
+        html = html.gsub('<br /><br /></p>', '</p>')
+        html = html.gsub('<p><br />', '<p>')
       end
     end
   end
