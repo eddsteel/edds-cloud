@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby -w
 #
 
-require 'backends/backend'
+require File.dirname(__FILE__) + '/backend'
 require 'rubygems'
 require 'json'
 require 'rest-open-uri'
