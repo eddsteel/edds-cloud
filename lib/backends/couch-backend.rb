@@ -15,9 +15,6 @@ class CouchBackend
   @@DEF_DB_URL = ENV['CLOUDANT_URL'] || 'http://localhost:5984'
   @@DEF_DB_NAME = 'entries'
 
-  @@DB_USER = ENV['COUCH_DB_USER']
-  @@DB_PASS = ENV['COUCH_DB_PASS']
-
   attr_reader :info
 
   def initialize(db_url=@@DEF_DB_URL, 
