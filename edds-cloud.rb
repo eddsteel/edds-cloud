@@ -84,7 +84,7 @@ __END__
     %title<
       = @title || 'Edd\'s Cloud'
     %link{:rel => 'stylesheet', :href => '/style.css'}
-  %body
+  %body.cloud
     =yield
 
 @@page
@@ -93,13 +93,18 @@ __END__
     %hgroup
       %h1 Edd's
       %h2 Cloud
-%section#main.cloud
+%section#main
+  -if @title
+    %h2 
+      =@title
   -next_id = @store.send(@retriever, *(@retriever_args)) do |entry|
     =haml :entry, :locals=>{:entry=>entry}, :layout=>false
 %footer#more
   - if next_id
     %a{:href=>"/more/#{next_id}"}
       More
+  - else
+    = "&\##{9748}"; 
 
 @@entry
 %article
