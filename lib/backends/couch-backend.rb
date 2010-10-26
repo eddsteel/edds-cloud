@@ -80,21 +80,35 @@ class CouchBackend
     get_entries(url)
   end
 
-  def get_entries(url)
+  def get_entries(url, with_next = true)
     list = curl(URI::encode(url))['rows']
-    entries = list[0..-2].map do |item|
+    list = list[0..-2] if with_next
+    entries = list.map do |item|
       Entry.from_json_hash(item['value'])
     end
-    next_key = list.last['key'].to_json[1..-2]
+    if with_next
+      next_key = list.last['key'].to_json[1..-2]
+    end
    
-    return entries, next_key 
+    with_next ? entries : [entries, next_key]
   end
 
   
   def entries_from(start, count=10)
     startkey = start
-    url = "/#@db_name/_design/docs/_view/by_time?descending=true&startkey=#{startkey}"
+    url = "/#@db_name/_design/docs/_view/by_time" + 
+    "?descending=true&startkey=#{startkey}"
     url = url + "&limit=#{count + 1}" if count > 0
+    get_entries(url)
+  end
+
+  def entries_for_month(year, month)
+    startkey = [year, month, 0]
+    endkey = month == 12 ? [year + 1, 1, 0] : 
+      [year, (month + 1), 0]
+    url = "/#@db_name/_design/docs/_view/by_time" +
+    "?startkey=#{startkey.to_json}" +
+    "&endkey=#{endkey.to_json}"
     get_entries(url)
   end
 
