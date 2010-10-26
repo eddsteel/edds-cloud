@@ -97,8 +97,9 @@ __END__
   -next_id = @store.send(@retriever, *(@retriever_args)) do |entry|
     =haml :entry, :locals=>{:entry=>entry}, :layout=>false
 %footer#more
-  %a{:href=>"/more/#{next_id}"}
-    More
+  - if next_id
+    %a{:href=>"/more/#{next_id}"}
+      More
 
 @@entry
 %article
