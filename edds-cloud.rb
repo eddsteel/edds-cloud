@@ -31,7 +31,7 @@ get %r{^/more/\[?(.*)\]?$} do
   haml :page
 end
 
-
+# By day
 get %r{/(\d{4})/(\d{1,2})/(\d{1,2})} do
   prepare
   @retriever = :each_of_day
@@ -39,6 +39,7 @@ get %r{/(\d{4})/(\d{1,2})/(\d{1,2})} do
   haml :page 
 end
 
+# By month
 get %r{/(\d{4})/(\d{1,2})} do
   prepare
   @retriever = :each_of_month
