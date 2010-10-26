@@ -43,7 +43,9 @@ end
 get %r{/(\d{4})/(\d{1,2})} do
   prepare
   @retriever = :each_of_month
+  year, date = params[:captures].map {|p| p.to_i}
   @retriever_args = params[:captures]
+  @title = "#{Date::MONTHNAMES[date]}, #{year}"
   haml :page 
 end
 

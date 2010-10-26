@@ -29,10 +29,13 @@ class EntryStore
   end
 
   def each_of_month(year, month, &block)
-    entries = @backend.entries_for_month(year, month)
+    entries = @backend.entries_for_month(year.to_i, 
+                                         month.to_i)
     entries.each do |entry|
       block.call(entry)
     end
+
+    nil
   end
 
   def each_of_day(year, month, day, &block)
