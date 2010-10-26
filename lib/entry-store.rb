@@ -2,10 +2,20 @@
 #
 # Stores/ retrieves entries using a pluggable backend
 #
+# Responsible for sanitising user input, and converting
+# to and from strings/integers
+#
+# All each_from methods return the key for the start of 
+# the next set of entries, to ease pagination.
+# That means you have to return nil if you don't want a
+# more link.
+#
+
 libdir = File.dirname(__FILE__)
 $LOAD_PATH.unshift libdir unless $LOAD_PATH.include? libdir
 require 'feed'
 require 'backends/couch-backend'
+require 'backends/file-backend'
 
 class EntryStore
   def initialize(backend=CouchBackend)
