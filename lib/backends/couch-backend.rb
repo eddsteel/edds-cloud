@@ -119,14 +119,15 @@ class CouchBackend
 
  
   def curl(url='', method=:get, data=nil)
-    args = {:content_type=>'application/json', :accept=>'application/json'}
-
+    args = {:content_type=>'application/json', 
+      :accept=>'application/json'}
     resp = ''
 
     if data.nil?
       resp = RestClient.send method, (@db + url), args
     else
-      resp = RestClient.send method, (@db + url), data, args
+      resp = RestClient.send method, (@db + url), data, 
+        args
     end
 
     JSON::parse(resp.body)
