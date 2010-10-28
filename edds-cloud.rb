@@ -10,55 +10,43 @@ require 'backends/couchdb'
 require 'entry'
 
 configure do
-  @@store = CouchBackend.new
+  @@back = CouchBackend.new
+  @@front = :haml # this will be dynamically selected
 end
 
 get '/' do
-  prepare
-  @retriever = :each
-  @retriever_args = [0, 10]
-  haml :page
+  @entries, @next_key = @@back.entries(0, 10)
+  display :page
 end
 
 get '/more' do
-  prepare
-  @retriever = :each
-  @retriever_args = [10, 10]
-  haml :page
+  @entries, @next_key = @@back.entries(10, 10)
+  display :page
 end
 
-
 get %r{^/more/\[?(.*)\]?$} do
-  prepare
-  @retriever = :each_from
-  @retriever_args = ["[#{params[:captures].first}]", 10]
-  haml :page
+  @entries, @next_key = @@back.entries_from(
+    "[#{params[:captures].first}]", 10)
+  display :page
 end
 
 # By day
 get %r{/(\d{4})/(\d{1,2})/(\d{1,2})} do
-  prepare
-  @retriever = :each_of_day
-  @retriever_args = params[:captures]
-  haml :page 
+  @entries, @next_key = @@back.entries_for_day(*params[:captures])
+  display :page 
 end
 
 # By month
 get %r{/(\d{4})/(\d{1,2})} do
-  prepare
-  @retriever = :each_of_month
-  year, date = params[:captures].map {|p| p.to_i}
-  @retriever_args = params[:captures]
-  @title = "#{Date::MONTHNAMES[date]}, #{year}"
-  haml :page 
+  year, month = params[:captures].map {|p| p.to_i}
+  @entries, @next_key = @@back.entries_for_month(year,
+                                                  month)
+  @title = "#{Date::MONTHNAMES[month]}, #{year}"
+  display :page 
 end
 
 helpers do
-  def prepare
-    @store = @@store
-  end
-
-  # TODO: out to templates
+  # TODO: out to templates, or lib
   def linkify(text)
     return nil if text.nil?
     # TODO: what is included in \w?
@@ -74,6 +62,10 @@ helpers do
   
   def format_date(time)
     time.strftime('%d %b, %Y')
+  end
+
+  def display(*args)
+    send @@front, *args
   end
 end
 
@@ -101,11 +93,12 @@ __END__
   -if @title
     %h2 
       =@title
-  -next_id = @store.send(@retriever, *(@retriever_args)) do |entry|
-    =haml :entry, :locals=>{:entry=>entry}, :layout=>false
+  -@entries.each do |entry|
+    = haml :entry, :locals=>{:entry=>entry}, 
+      :layout=>false
 %footer#more
-  - if next_id
-    %a{:href=>"/more/#{next_id}"}
+  - if @next_key
+    %a{:href=>"/more/#@next_key"}
       More
   - else
     = "&\##{9748}"; 
@@ -136,8 +129,9 @@ __END__
         = "tagged #{entry.tags.join(', ')}"
     -if entry.meta
       %span.meta<
-        =haml :meta, :locals=>{:meta=>entry.meta, 
-          :url=>"http://twitter.com/"}
+        =haml :meta, 
+          :locals=>{:meta=>entry.meta, 
+            :url=>"http://twitter.com/"}
 
 @@meta
 %span
