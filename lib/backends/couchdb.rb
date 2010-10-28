@@ -11,7 +11,8 @@ require 'restclient'
 class CouchBackend 
   include Backend
 
-  @@DEF_DB_URL = ENV['CLOUDANT_URL'] || 'http://localhost:5984'
+  @@DEF_DB_URL = ENV['CLOUDANT_URL'] || 
+    'http://localhost:5984'
   @@DEF_DB_NAME = 'entries'
 
   attr_reader :info
