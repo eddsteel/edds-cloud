@@ -1,12 +1,16 @@
 #!/usr/bin/ruby -w
 # GPL
 
+libdir = File.dirname(__FILE__) + "/lib"
+$LOAD_PATH.unshift libdir unless $LOAD_PATH.include? libdir
 require 'rubygems'
 require 'sinatra'
-require 'lib/entry-store'
+
+require 'backends/couchdb'
+require 'entry'
 
 configure do
-  @@store = EntryStore.new
+  @@store = CouchBackend.new
 end
 
 get '/' do
