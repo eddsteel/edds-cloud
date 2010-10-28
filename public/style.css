@@ -103,9 +103,14 @@ section.content {
   font-size: 1.4em;
 }
 
+article footer, article footer a {
+  color: #555;
+}
+
 article footer span {
   margin: 0 0.75em 0 0;
 }
+
 
 /* header */
 
@@ -161,4 +166,14 @@ header.main h2
 {
   color: #d0e0e5;
   margin: 1em;
+}
+
+blockquote
+{
+  font-style: italic;
+}
+
+blockquote em
+{
+  font-style: none;
 }
