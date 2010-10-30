@@ -1,0 +1,39 @@
+-@entries.each do |entry|
+  %article
+    - if entry.title
+      %h1
+        - if entry.author
+          = "#{entry.author}: "
+        %a{:href=>entry.url}
+          = entry.title
+    %section.content
+      = linkify(entry.content)
+    %footer
+      -if entry.date
+        %span.date<
+          = format_date(entry.date)
+      %span.source<
+        on
+        -if "#{entry.source_url}".start_with? 'http://'
+          %a{:href=>"#{entry.source_url}"}<
+            = entry.source
+        -else
+          = entry.source
+      -unless entry.tags.empty?
+        %span.tags<
+          = "tagged #{entry.tags.join(', ')}"
+      -if entry.meta
+        %span.meta<
+          - if entry.meta.recipient
+            - if entry.meta.response_id
+              in reply to 
+              %a.reply{:href=>"#{entry.baseurl}status/#{entry.meta.response_id}"}<
+                ="@#{entry.meta.recipient}"
+            - else
+              to 
+              %a.to{:href=>"#{entry.baseurl}#{entry.meta.recipient}"}<
+                ="@#{entry.meta.recipient}"
+          - if entry.meta.quoting
+            quoting 
+            %a.quoting{:href=>"#{entry.baseurl}#{entry.meta.quoting}"}<
+              ="@#{entry.meta.quoting}"
