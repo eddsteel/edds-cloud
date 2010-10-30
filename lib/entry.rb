@@ -115,6 +115,8 @@ class Tweet < Entry
     Meta.new({:quoting=>quoting, :tags=>tags, 
       :response=>response, :recipient=>recipient})
   end
+
+  def baseurl; "http://twitter.com/" ;end
 end
 
 class Meta

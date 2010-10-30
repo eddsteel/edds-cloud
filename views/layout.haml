@@ -1,0 +1,24 @@
+!!! 5
+%html{:lang => 'en'}
+  %head
+    %meta{:charset => 'utf-8'}
+    %title<
+      = @title || 'Edd\'s Cloud'
+    %link{:rel => 'stylesheet', :href => '/style.css'}
+  %body.cloud
+%section#header
+  %header.main
+    %hgroup
+      %h1 Edd's
+      %h2 Cloud
+%section#main
+  -if @title
+    %h2 
+      =@title
+  =yield
+%footer#more
+  - if @next_key
+    %a{:href=>"/more/#@next_key"}
+      More
+  - else
+    = "&\##{9748}"; 
