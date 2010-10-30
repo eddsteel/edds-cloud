@@ -28,8 +28,8 @@ class Loader
 end
 
 if $0 == __FILE__
-  require 'backends/file-backend'
-  require 'backends/couch-backend'
+  require 'backends/file'
+  require 'backends/couchdb'
 
   loader = Loader.new(:FileBackend, :CouchBackend)
   loader.load
