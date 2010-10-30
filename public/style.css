@@ -9,21 +9,6 @@
  *
  */
 
-@font-face {
-  font-family: 'Bookman';
-  src: url('fonts/bookman-light-demi.ttf');
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Bookman';
-  src: url('fonts/bookman-light.ttf');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
 body {
   font-family:  'Bookman', 'Times New Roman', 
     'Times', serif;
