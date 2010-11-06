@@ -50,7 +50,7 @@ helpers do
   def linkify(text)
     return nil if text.nil?
     # TODO: what is included in \w?
-    
+
     text.gsub!(%r[http://[-\w%./?&]+[\w\/]\b]) {
       %Q[<a href="#{$&}">#{$&}</a>]
     }
@@ -59,7 +59,7 @@ helpers do
     }
     text
   end
-  
+
   def format_date(time)
     time.strftime('%d %b, %Y')
   end
