@@ -62,6 +62,15 @@ helpers do
     text
   end
 
+  def random_title
+    clouds = File.read('public/clouds.txt').split("\n")
+    "Edd's #{clouds[rand(clouds.size)]}"
+  end
+
+  def title
+    @title || random_title
+  end
+
   def format_date(time)
     time.strftime('%d %b, %Y')
   end
