@@ -51,14 +51,14 @@ helpers do
   # TODO: out to templates, or lib
   def linkify(text)
     return nil if text.nil?
-    # TODO: what is included in \w?
 
-    text.gsub!(%r[http://[-\w%./?&]+[\w\/]\b]) {
+    # note: latin domains only.
+    text.gsub!(%r[http://[a-zA-Z][-a-zA-Z0-9.](/[-\w%./?&])?[\w\/]\b]) do
       %Q[<a href="#{$&}">#{$&}</a>]
-    }
-    text.gsub!(%r[@(\w+)\b]) {
+    end
+    text.gsub!(%r[@(\w+)\b]) do
       %Q[<a href="http://twitter.com/#{$1}">#{$&}</a>]
-    }
+    end
     text
   end
 
