@@ -13,7 +13,6 @@ require 'entry'
 
 configure do
   @@back = CouchBackend.new
-  @@front = :haml # this will be dynamically selected
 end
 
 get '/' do
@@ -67,6 +66,6 @@ helpers do
   end
 
   def display(*args)
-    send @@front, *args
+    haml *args
   end
 end
