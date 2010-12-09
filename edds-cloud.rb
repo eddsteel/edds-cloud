@@ -7,6 +7,7 @@ $LOAD_PATH.unshift libdir unless $LOAD_PATH.include? libdir
 require 'rubygems'
 require 'sinatra'
 require 'date'
+require 'haml'
 
 require 'backends/couchdb'
 require 'entry'
