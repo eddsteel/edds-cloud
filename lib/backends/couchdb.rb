@@ -8,16 +8,16 @@ require 'restclient'
 
 
 # TODO: extract design docs.
-class CouchBackend 
+class CouchBackend
   include Backend
 
-  @@DEF_DB_URL = ENV['CLOUDANT_URL'] || 
+  @@DEF_DB_URL = ENV['CLOUDANT_URL'] ||
     'http://localhost:5984'
   @@DEF_DB_NAME = 'entries'
 
   attr_reader :info
 
-  def initialize(db_url=@@DEF_DB_URL, 
+  def initialize(db_url=@@DEF_DB_URL,
                  db_name=@@DEF_DB_NAME)
     options = get_options
     @db = options['db'] || db_url
@@ -103,7 +103,7 @@ class CouchBackend
 
   def entries_for_month(year, month)
     startkey = [year, month, 0]
-    endkey = month == 12 ? [year + 1, 1, 0] : 
+    endkey = month == 12 ? [year + 1, 1, 0] :
       [year, (month + 1), 0]
     url = "/#@db_name/_design/docs/_view/by_time" +
     "?startkey=#{startkey.to_json}" +
@@ -116,16 +116,16 @@ class CouchBackend
     # Do nothing, we're writing through every time.
   end
 
- 
+
   def curl(url='', method=:get, data=nil)
-    args = {:content_type=>'application/json', 
+    args = {:content_type=>'application/json',
       :accept=>'application/json'}
     resp = ''
 
     if data.nil?
       resp = RestClient.send method, (@db + url), args
     else
-      resp = RestClient.send method, (@db + url), data, 
+      resp = RestClient.send method, (@db + url), data,
         args
     end
 
