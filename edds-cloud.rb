@@ -80,6 +80,17 @@ helpers do
     ((defined? @@PATH_ADDN) ? @@PATH_ADDN : "") + url
   end
 
+  def print_params
+    puts "Params"
+    params.sort_by {|k,v| k.to_s}.each do |key, value|
+      puts "#{key}: #{value}"
+    end
+    puts "ENV"
+    env.sort_by {|k,v| k.to_s}.each do |key, value|
+      puts "#{key}: #{value}"
+    end
+  end
+
   def format_date(time)
     time.strftime('%d %b, %Y')
   end
