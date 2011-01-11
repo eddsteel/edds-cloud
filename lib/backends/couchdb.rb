@@ -5,6 +5,7 @@ require File.dirname(__FILE__) + '/backend'
 require 'rubygems'
 require 'json'
 require 'restclient'
+require 'date'
 
 
 # TODO: extract design docs.
@@ -23,6 +24,11 @@ class CouchBackend
     @db = options['db'] || db_url
     @db_name = options['name'] || db_name
     @info = curl
+  end
+
+  def self.month_lengths(year)
+    [-1, 31, Date.leap?(year) ? 29 : 28, 31, 30, 31, 30, 31,
+         31, 30, 31, 30, 31]
   end
 
   def get_options
@@ -103,13 +109,29 @@ class CouchBackend
 
   def entries_for_month(year, month)
     startkey = [year, month, 0]
-    endkey = month == 12 ? [year + 1, 1, 0] :
+    endkey = month >= 12 ? [year + 1, 1, 0] :
       [year, (month + 1), 0]
     url = "/#@db_name/_design/docs/_view/by_time" +
     "?startkey=#{startkey.to_json}" +
     "&endkey=#{endkey.to_json}"
     get_entries(url, false)
   end
+
+  def entries_for_day(year, month, day)
+    startkey = [year, month, day]
+    days = CouchBackend.month_lengths(year)[month]
+    nday = day >= days ? 1 : day + 1
+    nmonth = nday == 1 ? month + 1 : month
+    endkey = [year, nmonth, nday]
+    url = "/#@db_name/_design/docs/_view/by_time" +
+    "?startkey=#{startkey.to_json}" +
+    "&endkey=#{endkey.to_json}"
+    get_entries(url, false)
+  end
+
+  #def tags()
+    #url = "/#@db_name/_design/stats/_view/tags?descending=true"
+  #end
 
 
   def persist

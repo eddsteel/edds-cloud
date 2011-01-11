@@ -39,17 +39,18 @@ end
 
 # By day
 get %r{/(\d{4})/(\d{1,2})/(\d{1,2})} do
-  @entries, @next_key = @@back.entries_for_day(*params[:captures])
-  display :page 
+  y, m, d = params[:captures].map {|p| p.to_i}
+  @entries, @next_key = @@back.entries_for_day(y, m, d)
+  @title = "#{d} #{Date::MONTHNAMES[m]}, #{y}"
+  display :page
 end
 
 # By month
 get %r{/(\d{4})/(\d{1,2})} do
-  year, month = params[:captures].map {|p| p.to_i}
-  @entries, @next_key = @@back.entries_for_month(year,
-                                                  month)
-  @title = "#{Date::MONTHNAMES[month]}, #{year}"
-  display :page 
+  y, m = params[:captures].map {|p| p.to_i}
+  @entries, @next_key = @@back.entries_for_month(y, m)
+  @title = "#{Date::MONTHNAMES[m]}, #{y}"
+  display :page
 end
 
 helpers do

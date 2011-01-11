@@ -34,6 +34,18 @@ class Entry
     end
   end
 
+  def month
+    @date.month
+  end
+
+  def year
+    @date.year
+  end
+
+  def day
+    @date.day
+  end
+
   def <=>(other)
     return 1 if (other.nil? || other.date.nil?)
     return -1 if @date.nil?
