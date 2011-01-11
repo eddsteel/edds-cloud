@@ -17,6 +17,10 @@ configure do
   @@clouds = File.read('public/clouds.txt').split("\n")
 end
 
+configure :dev do
+  @@PATH_ADDN = "/sg"
+end
+
 get '/' do
   @entries, @next_key = @@back.entries(0, 10)
   display :page
@@ -69,6 +73,10 @@ helpers do
 
   def title
     @title || random_title
+  end
+
+  def rurl(url)
+    ((defined? @@PATH_ADDN) ? @@PATH_ADDN : "") + url
   end
 
   def format_date(time)
