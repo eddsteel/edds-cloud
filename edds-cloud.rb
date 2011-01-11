@@ -14,6 +14,7 @@ require 'entry'
 
 configure do
   @@back = CouchBackend.new
+  @@clouds = File.read('public/clouds.txt').split("\n")
 end
 
 get '/' do
@@ -63,8 +64,7 @@ helpers do
   end
 
   def random_title
-    clouds = File.read('public/clouds.txt').split("\n")
-    "Edd's #{clouds[rand(clouds.size)]}"
+    "Edd's #{@@clouds[rand(@@clouds.size)]}"
   end
 
   def title
