@@ -58,7 +58,7 @@ helpers do
     return nil if text.nil?
 
     # note: latin domains only.
-    text.gsub!(%r[http://[a-zA-Z][-a-zA-Z0-9.](/[-\w%./?&])?[\w\/]\b]) do
+    text.gsub!(%r[http://[a-zA-Z][-a-zA-Z0-9.]*(/[-\w%./?&]*)*[\w\/-_]\b]) do
       %Q[<a href="#{$&}">#{$&}</a>]
     end
     text.gsub!(%r[@(\w+)\b]) do
