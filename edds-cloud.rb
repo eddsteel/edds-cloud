@@ -12,32 +12,52 @@ require 'haml'
 require 'backends/couchdb'
 require 'entry'
 
+##
+# Base configuration.
+#
+# Set up back-end, read alternative titles.
+#
 configure do
   @@back = CouchBackend.new
   @@clouds = File.read('public/clouds.txt').split("\n")
 end
 
+##
+# DEV configuration.
+#
+# Set context-root.
 configure :dev do
   @@PATH_ADDN = "/sg"
 end
 
+##
+# List entries
+#
 get '/' do
   @entries, @next_key = @@back.entries(0, 10)
   display :page
 end
 
+##
+# List 2nd page of entries
+#
 get '/more' do
   @entries, @next_key = @@back.entries(10, 10)
   display :page
 end
 
+##
+# List page of entries starting from specific entry.
+#
 get %r{^/more/\[?(.*)\]?$} do
   @entries, @next_key = @@back.entries_from(
     "[#{params[:captures].first}]", 10)
   display :page
 end
 
-# By day
+##
+# List all entries for day
+#
 get %r{/(\d{4})/(\d{1,2})/(\d{1,2})} do
   y, m, d = params[:captures].map {|p| p.to_i}
   @entries, @next_key = @@back.entries_for_day(y, m, d)
@@ -45,7 +65,9 @@ get %r{/(\d{4})/(\d{1,2})/(\d{1,2})} do
   display :page
 end
 
-# By month
+##
+# List all entries for a month
+#
 get %r{/(\d{4})/(\d{1,2})} do
   y, m = params[:captures].map {|p| p.to_i}
   @entries, @next_key = @@back.entries_for_month(y, m)
