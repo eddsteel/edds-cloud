@@ -224,3 +224,20 @@ blockquote {
 blockquote em, blockquote a {
   font-style: normal;
 }
+
+/*---------------------------- */
+
+/*grid*/
+.grid {
+	position: absolute;
+	top: 12px;
+	width: 100%;
+	overflow: hidden;
+}
+.gridline {
+	margin-top: -1px;
+	border-bottom: 1px solid blue;
+	position: relative;
+	display: none;
+	height: 1.5em;
+}
