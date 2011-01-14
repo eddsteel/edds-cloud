@@ -91,10 +91,10 @@ helpers do
 
     # note: latin domains only.
     text.gsub!(%r[http://[a-zA-Z][-a-zA-Z0-9.]*(/[-\w%./?&]*)*[\w\/-_]\b]) do
-      %Q[<a href="#{$&}">#{$&}</a>]
+      %Q[<nobr><a href="#{$&}">#{$&}</a></nobr>]
     end
     text.gsub!(%r[@(\w+)\b]) do
-      %Q[<a href="http://twitter.com/#{$1}">#{$&}</a>]
+      %Q[<nobr><a href="http://twitter.com/#{$1}">#{$&}</a></nobr>]
     end
     text
   end
