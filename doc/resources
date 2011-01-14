@@ -1,0 +1,27 @@
+
+Unless otherwise noted, returns summary, not full.
+
+
+/							Most recent entries (not permalink, use between)
+/more					2nd most recent entries (not permalink, use between)
+/more/{did}		Most recent entries after entry with DID {did}. p
+/entry/{eid}  Specific entry (with EID {eid}) [FULL] p
+/between/{eid1},{eid2}	All entries between two EIDs. p
+/2010/01			All entries for Jan 2010 p 
+/2010/01/01		All entries for 1 Jan 2010. p
+/tag					All tags p
+/tag/foo			All entries with tag p
+/{sid}				Specific entry (short)
+
+DID (date ID)
+
+/1001001 - sortable, short, unique. (YYmmSEQ)
+
+SID (short ID)
+/a/a9f SHA-1 date + source URL, then %52 for first part, first 3 letters for
+second.
+
+Slug
+
+berlusconi-bans-prostitution
+
