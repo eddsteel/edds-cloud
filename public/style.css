@@ -32,6 +32,12 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  position: relative;
+  top: -1px;
+  text-shadow: 1px 1px 1px #ccc;
+}
+
 a:visited {
   color: #555;
 }
