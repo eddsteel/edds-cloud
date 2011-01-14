@@ -26,3 +26,12 @@ task :load do
   ruby 'lib/tools/loader.rb'
 end
 
+desc "Push contents of DB to cloudant DB"
+task :replicate do
+  config = `heroku config --long`.split("\n")
+  cloudant = config.map {|c| $1 if c =~ /CLOUDANT_URL *=> (.*)/}.join
+  source = "http://localhost:5984"
+  `curl -v -X POST -d '{"source":"#{source}/entries", "target":"#{cloudant}/entries"}' \
+  -H "Content-Type: application/json" \
+  #{source}/_replicate`
+end
