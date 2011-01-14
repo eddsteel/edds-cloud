@@ -69,8 +69,16 @@ h1 {
   font-size: 1.6em;
 }
 
-h2 {
-  font-size: 1.2em;
+.contents {
+}
+
+.contents ul {
+  padding: 0px;
+  width: 30%;
+  float: left;
+  margin-right: 3%;
+  margin-left: 0px;
+  list-style-type: none;
 }
 
 article {

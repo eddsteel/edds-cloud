@@ -75,6 +75,15 @@ get %r{/(\d{4})/(\d{1,2})} do
   display :page
 end
 
+##
+# List all entries for a year
+#
+get %r{/(\d{4})} do
+  year = params[:captures][0]
+  @title = "#{year}"
+  display :year, :locals=>{:year=>year}
+end
+
 helpers do
   # TODO: out to templates, or lib
   def linkify(text)
