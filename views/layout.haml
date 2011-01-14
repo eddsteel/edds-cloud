@@ -3,23 +3,27 @@
   %head
     %meta{:charset => 'utf-8'}
     %title<
-      = @title || 'Edd\'s Cloud'
-    %link{:rel => 'stylesheet', :href => '/style.css'}
-    %link{:rel => 'stylesheet', :href => '/fonts.css'}
+      = title
+    %link{:rel => 'stylesheet', :href => rurl('/style.css')}
+    %link{:rel => 'stylesheet', :href => rurl('/fonts.css')}
   %body.cloud
-%section#header
-  %header.main
-    %hgroup
-      %h1 Edd's
-      %h2 Cloud
-%section#main
-  -if @title
-    %h2 
-      =@title
-  =yield
-%footer#more
-  - if @next_key
-    %a{:href=>"/more/#@next_key"}
-      More
-  - else
-    = "&\##{9748}"; 
+    %header.main
+      %hgroup
+        %a{:href => rurl("/")}
+          %h1 Edd's
+        %a{:href => rurl("/")}
+          %h2 Cloud
+    %section#main
+      -if @title
+        %h2
+          =@title
+      =yield
+    %footer{:id=>@next_key ? 'more' : 'end'}
+      - if @next_key
+        %a{:href=>rurl("/more/#@next_key")}
+          More
+      - else
+        = "&\##{9748};"
+    .grid
+      -100.times do
+        .gridline &nbsp;

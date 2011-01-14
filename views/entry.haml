@@ -6,7 +6,8 @@
       %a{:href=>entry.url}
         = entry.title
   %section.content
-    = linkify(entry.content)
+    %p
+      = linkify(entry.content)
   %footer
     -if entry.date
       %span.date<

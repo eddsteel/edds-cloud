@@ -11,17 +11,13 @@
     %footer
       -if entry.date
         %span.date<
-          = format_date(entry.date)
-      %span.source<
-        on
-        -if "#{entry.source_url}".start_with? 'http://'
-          %a{:href=>"#{entry.source_url}"}<
-            = entry.source
-        -else
-          = entry.source
-      -unless entry.tags.empty?
-        %span.tags<
-          = "tagged #{entry.tags.join(', ')}"
+          %a{:href=>rurl("/#{entry.year}/#{entry.month}/#{entry.day}")}><
+            = "#{entry.date.strftime('%d')}&nbsp;"
+          %a{:href=>rurl("/#{entry.year}/#{entry.month}")}><
+            = "#{entry.date.strftime('%b')}"
+          = ',&nbsp;'
+          %a{:href=>rurl("/#{entry.year}")}><
+            = "#{entry.date.strftime('%Y')}"
       -if entry.meta
         %span.meta<
           - if entry.meta.recipient
@@ -37,3 +33,13 @@
             quoting 
             %a.quoting{:href=>"#{entry.baseurl}#{entry.meta.quoting}"}<
               ="@#{entry.meta.quoting}"
+      %span.source<
+        on
+        -if "#{entry.source_url}".start_with? 'http://'
+          %a{:href=>"#{entry.source_url}"}<
+            = entry.source
+        -else
+          = entry.source
+      -unless entry.tags.empty?
+        %span.tags<
+          = "tagged #{entry.tags.join(', ')}"

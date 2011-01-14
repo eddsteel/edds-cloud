@@ -6,13 +6,27 @@
  * #333
  * #000
  * #d0e0e5
+ *
+ * TODO: 
+ * finish gridding.
+ * check everything's properly paragraphed.
+ *
  */
+body, h1, h2, h3, h4, h5, h6, div, ol, ul, li,
+p, th, td, blockquote, pre, section, header,
+footer, article, nav {
+	margin:0;
+	padding:0;
+}
 
 body {
+  height: 100%;
+  min-height: 100%;
+  font-size: 90%;
+  line-height: 1.5;
   font-family:  'Fontin Sans', 'Helvetica', 'Arial', sans-serif;
-  font-size: 0.7em;
   color: #333;
-  margin: 0;
+  background-color: #eee;
   border-top: 7px solid #d0e0e5;
 }
 
@@ -20,16 +34,68 @@ h1,h2,h3,h4,h5,h6 {
   font-family:  'Bookman', 'Times New Roman', 'Times', serif;
 }
 
+/*
+ * if em is font-size for this element and EM is font-size
+ * of parent.
+ */
+h1 {
+	/* line height: 1.8EM */
+	font-size: 1.2em;
+	/* lh + (pad * fs) = 3EM */
+	padding: 0.5em 0 0.5em 0;
+}
+
+h2 {
+	font-size: 1.1em; /*lh: 1.65*/
+	/* lh + (pad * fs) = 3EM */
+	padding: 0.613636363em 0;
+}
+
+h3 {
+	font-size: 1.05em;
+}
+
+h4 {
+	font-size: 1em;
+	font-style: italic;
+}
+
+h5 {
+	font-size: 1em;
+}
+
+h6 {
+	font-style: 1em;
+	font-weight: normal;
+	font-style: italic;
+}
+
+article footer {
+	font-size: 0.8em; /* line height 1.2EM */
+	padding: 0.1875em 0; /* lh + (pad * fs) = 1.5EM */
+	
+}
+
 .cloud {
-  background: white;
+  background: #fff;
   background: -moz-linear-gradient(bottom, #eee, #fff);
-  background: -webkit-gradient(linear, left top, left bottom, 
-    from(#fff), to(#eee));
+  background: -webkit-gradient(linear, left top, 
+  	left bottom, from(#fff), to(#eee));
+}
+
+html {
+  background: #eee;
 }
 
 a {
   color: #000;
   text-decoration: none;
+}
+
+a:hover {
+  position: relative;
+  top: -1px;
+  text-shadow: 1px 1px 1px #ccc;
 }
 
 a:visited {
@@ -40,11 +106,11 @@ article, section, footer { display:block;}
 
 
 article {
-  margin: 4em auto;
+  margin: 0 auto 3em auto;
 }
 
 footer {
-  margin: 1em auto;
+  margin: 0 auto;
 }
 
 
@@ -54,32 +120,34 @@ section {
 }
 
 section#main {
-  width: 50em;
+  width: 40em;
   clear:both;
   padding-bottom: 3em;
 }
 
 section#main h2 {
-  margin: 2em auto;
+  margin: 0 auto;
   text-align: right;
 }
 
-h1 {
-  margin: 0 0 1em 0;
-  font-size: 1.6em;
+.contents {
 }
 
-h2 {
-  font-size: 1.2em;
+.contents ul {
+  padding: 0px;
+  width: 30%;
+  float: left;
+  margin-right: 3%;
+  margin-left: 0px;
+  list-style-type: none;
 }
 
 article {
-  font-size: 1em;
 }
 
 section.content {
-  font-size: 1.4em;
 }
+
 
 article footer, article footer a {
   color: #555;
@@ -92,47 +160,62 @@ article footer span {
 
 /* header */
 
-section#header
+.cloud header
 {
   border-top: 5px solid #eee;
   text-align: center;
-}
-
-header.main
-{
 	display: block;
 	padding: 0em 0em 0em 0em;
 }
 
-header.main hgroup
+.cloud header hgroup
 {
 	display: block;
   margin: 0 auto;
 }
 
-header.main h1
-{
-	font-size: 2.4em;
-	display: block;
-	padding: 0 2em 0 0;
-	margin: 0 0 -20px 3em;
-}
-
-header.main h2
+.cloud header h1
 {
 	display: block;
-	font-size: 7.2em;
-	line-height: 1em; /* of 7.2 */
-	color: #eee;
-  margin: 0 0 -20px 0;
+	font-size: 2em; /*lh: 3EM*/
+	padding: 0 0 0 1.5em;
 }
 
-#more
+.cloud header h2
 {
-  font-size: 1.8em;
-  padding: 0.5em;
-  margin: 4px 0 0 0;
+	display: block;
+	color: #e0e0e0;
+  text-shadow: 0px 0px 0.1em #d5d5d5;
+  -moz-text-shadow: 0px 0px 0.1em #d5d5d5;
+  -webkit-text-shadow: 0px 0px 0.1em #d5d5d5;
+	line-height: 1;
+  font-size: 6em; /*lh: 6EM */
+  font-style: normal;
+  padding: 0 0 0.1em 0; /* These lines shift title */
+  margin: -0.35em 0 0 0; /*  up 0.25em - 1.5EM */
+}
+
+/*
+ * Footer
+ */
+
+footer#more, footer#end
+{
+	/* line height: 1.8EM */
+	font-size: 1.2em;
+	/* lh + (pad * fs) = 3EM */
+	padding: 0.5em 0 0.5em 0;
   text-align: center;
+  clear: both;
+}
+
+footer#end
+{
+  margin-top: 9em;
+}
+
+footer#more
+{
   color: #eee;
   background: black;
   background: -moz-linear-gradient(bottom, #000, #555);
@@ -140,14 +223,14 @@ header.main h2
     from(#555), to(#000));
 }
 
-#more a
+footer#more a
 {
   color: #d0e0e5;
-  margin: 1em;
+  margin: 0;
 }
 
 blockquote {
-  margin: 1em 0;
+  margin: 0 0;
   border-left: 3px solid #D0E0F5;
   padding: 0 0 0 3em;
   font-style: italic;
@@ -155,4 +238,21 @@ blockquote {
 
 blockquote em, blockquote a {
   font-style: normal;
+}
+
+/*---------------------------- */
+
+/*grid*/
+.grid {
+	position: absolute;
+	top: 12px;
+	width: 100%;
+	overflow: hidden;
+}
+.gridline {
+	margin-top: -1px;
+	border-bottom: 1px solid blue;
+	position: relative;
+	display: none;
+	height: 1.5em;
 }
