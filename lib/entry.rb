@@ -184,14 +184,14 @@ class SharedItem < Entry
           bcount = br ? bcount + 1 : 0
           if bcount > 2
             quoting = !quoting
-            html += quoting ? "<blockquote><p>" : "</p></blockquote>"
+            html += quoting ? "<p><blockquote>" : "</blockquote></p>"
             bcount = 0
           else
             html += child.to_s
           end
         end
 
-        html += '</p></blockquote>' if quoting
+        html += '</blockquote></p>' if quoting
         html = html.gsub('<br /><br /><blockquote>', '<blockquote>')
         html = html.gsub('<br /><br /></p>', '</p>')
         html = html.gsub('<p><br />', '<p>')
