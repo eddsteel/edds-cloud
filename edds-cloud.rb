@@ -41,7 +41,7 @@ end
 get %r{/(\d{4})/(\d{1,2})/(\d{1,2})} do
   y, m, d = params[:captures].map {|p| p.to_i}
   @entries, @next_key = @@back.entries_for_day(y, m, d)
-  @title = "#{d} #{Date::MONTHNAMES[m]}, #{y}"
+  @title = "#{d} #{month_name(m)}, #{y}"
   display :page
 end
 
@@ -49,7 +49,7 @@ end
 get %r{/(\d{4})/(\d{1,2})} do
   y, m = params[:captures].map {|p| p.to_i}
   @entries, @next_key = @@back.entries_for_month(y, m)
-  @title = "#{Date::MONTHNAMES[m]}, #{y}"
+  @title = "#{month_name(m)}, #{y}"
   display :page
 end
 
@@ -93,6 +93,10 @@ helpers do
 
   def format_date(time)
     time.strftime('%d %b, %Y')
+  end
+
+  def month_name(m)
+    Date::MONTHNAMES[m]
   end
 
   def display(*args)
