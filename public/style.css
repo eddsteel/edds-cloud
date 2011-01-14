@@ -145,32 +145,28 @@ article footer span {
 
 /* header */
 
-section#header
+.cloud header
 {
   border-top: 5px solid #eee;
   text-align: center;
-}
-
-header.main
-{
 	display: block;
 	padding: 0em 0em 0em 0em;
 }
 
-header.main hgroup
+.cloud header hgroup
 {
 	display: block;
   margin: 0 auto;
 }
 
-header.main h1
+.cloud header h1
 {
 	display: block;
 	font-size: 2em; /*lh: 3EM*/
 	padding: 0 0 0 1.5em;
 }
 
-header.main h2
+.cloud header h2
 {
 	display: block;
 	color: #e0e0e0;
