@@ -17,9 +17,9 @@
         %h2
           =@title
       =yield
-    %footer#more
+    %footer{:id=>@next_key ? 'more' : 'end'}
       - if @next_key
         %a{:href=>rurl("/more/#@next_key")}
           More
       - else
-        = "&\##{9748}";
+        = "&\##{9748};"

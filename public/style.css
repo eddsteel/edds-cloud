@@ -141,12 +141,26 @@ header.main h2
   margin: 0 0 -20px 0;
 }
 
-#more
+/*
+ * Footer
+ */
+
+footer#more, footer#end
 {
   font-size: 1.8em;
   padding: 0.5em;
   margin: 4px 0 0 0;
   text-align: center;
+  clear: both;
+}
+
+footer#end
+{
+  margin-top: 9em;
+}
+
+footer#more
+{
   color: #eee;
   background: black;
   background: -moz-linear-gradient(bottom, #000, #555);
@@ -154,7 +168,7 @@ header.main h2
     from(#555), to(#000));
 }
 
-#more a
+footer#more a
 {
   color: #d0e0e5;
   margin: 1em;
