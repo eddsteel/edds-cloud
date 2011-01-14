@@ -20,8 +20,9 @@ task :clean
 task :load do
   rm_r 'raw/rss/out' if File.exist? 'raw/rss/out'
   rm_r 'entries.yaml' if File.exist? 'entries.yaml'
+  rm_r Dir.glob('raw/rss/*.cached.xml')
   mkdir_p 'raw/rss/out'
-  `cd raw/rss && wget -i sources.list -P out`
+  `wget -i raw/rss/sources.list -P raw/rss/out`
   ruby 'lib/tools/loader.rb'
 end
 

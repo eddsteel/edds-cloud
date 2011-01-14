@@ -7,242 +7,204 @@
     <atom:link rel="self" type="application/rss+xml" href="http://feeds.delicious.com/v2/rss/esteel"/>
     <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/2.5/"/>
     <item>
-      <title>Schneier on Security: Pen-and-Paper SQL Injection Attack Against Swedish Election</title>
-      <pubDate>Wed, 20 Oct 2010 11:56:30 +0000</pubDate>
-      <guid isPermaLink="false">http://www.delicious.com/url/f4503ef13395e035027bade06486ee9b#esteel</guid>
-      <link>http://www.schneier.com/blog/archives/2010/10/pen-and-paper_s.html</link>
+      <title>Typograph – Scale &amp; Rhythm</title>
+      <pubDate>Thu, 13 Jan 2011 09:31:05 +0000</pubDate>
+      <guid isPermaLink="false">http://www.delicious.com/url/60dc5a227249a81310eb141e5345a36a#esteel</guid>
+      <link>http://lamb.cc/typograph/</link>
       <dc:creator><![CDATA[esteel]]></dc:creator>
-      <comments>http://www.delicious.com/url/f4503ef13395e035027bade06486ee9b</comments>
-      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/f4503ef13395e035027bade06486ee9b</wfw:commentRss>
+      <comments>http://www.delicious.com/url/60dc5a227249a81310eb141e5345a36a</comments>
+      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/60dc5a227249a81310eb141e5345a36a</wfw:commentRss>
       <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
-      <description>A pen and paper based SQL injection attack and XSS attack on the Swedish election. Considering these ballots were OCRed or transcribed verbatim, it wasn&amp;#039;t so far fetched, but didn&amp;#039;t work.</description>
-      <category domain="http://www.delicious.com/esteel/">dtigtag</category>
-      <category domain="http://www.delicious.com/esteel/">schneier</category>
-      <category domain="http://www.delicious.com/esteel/">sweden</category>
-      <category domain="http://www.delicious.com/esteel/">security</category>
-      <category domain="http://www.delicious.com/esteel/">sqlinjection</category>
-      <category domain="http://www.delicious.com/esteel/">xss</category>
-    </item>
-    <item>
-      <title>htty, the HTTP TTY</title>
-      <pubDate>Sun, 10 Oct 2010 20:44:53 +0000</pubDate>
-      <guid isPermaLink="false">http://www.delicious.com/url/fd70d3a43aa3c28613f533281af39f66#esteel</guid>
-      <link>http://htty.github.com/</link>
-      <dc:creator><![CDATA[esteel]]></dc:creator>
-      <comments>http://www.delicious.com/url/fd70d3a43aa3c28613f533281af39f66</comments>
-      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/fd70d3a43aa3c28613f533281af39f66</wfw:commentRss>
-      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
-      <description>Well, this is rather splendid. &amp;#039;Heck to the yeah!&amp;#039; was pretty much my reaction too.</description>
-      <category domain="http://www.delicious.com/esteel/">devlopment</category>
-      <category domain="http://www.delicious.com/esteel/">programming</category>
-      <category domain="http://www.delicious.com/esteel/">ruby</category>
-      <category domain="http://www.delicious.com/esteel/">software</category>
-      <category domain="http://www.delicious.com/esteel/">testing</category>
-      <category domain="http://www.delicious.com/esteel/">HTTP</category>
-      <category domain="http://www.delicious.com/esteel/">curl</category>
-    </item>
-    <item>
-      <title>jQuery Fundamentals</title>
-      <pubDate>Wed, 06 Oct 2010 12:20:17 +0000</pubDate>
-      <guid isPermaLink="false">http://www.delicious.com/url/add4fe2626271457e11ee9392759765d#esteel</guid>
-      <link>http://jqfundamentals.com/book/book.html</link>
-      <dc:creator><![CDATA[esteel]]></dc:creator>
-      <comments>http://www.delicious.com/url/add4fe2626271457e11ee9392759765d</comments>
-      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/add4fe2626271457e11ee9392759765d</wfw:commentRss>
-      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
-      <category domain="http://www.delicious.com/esteel/">book</category>
-      <category domain="http://www.delicious.com/esteel/">tutorial</category>
-      <category domain="http://www.delicious.com/esteel/">reference</category>
-      <category domain="http://www.delicious.com/esteel/">programming</category>
-      <category domain="http://www.delicious.com/esteel/">javascript</category>
-      <category domain="http://www.delicious.com/esteel/">toread</category>
-      <category domain="http://www.delicious.com/esteel/">jquery</category>
-      <category domain="http://www.delicious.com/esteel/">ebook</category>
-      <category domain="http://www.delicious.com/esteel/">webdev</category>
-    </item>
-    <item>
-      <title>nvie.com - How I boosted my Vim</title>
-      <pubDate>Tue, 05 Oct 2010 06:12:10 +0000</pubDate>
-      <guid isPermaLink="false">http://www.delicious.com/url/70f896d0ea142330417d3a178d0196aa#esteel</guid>
-      <link>http://nvie.com/posts/how-i-boosted-my-vim/</link>
-      <dc:creator><![CDATA[esteel]]></dc:creator>
-      <comments>http://www.delicious.com/url/70f896d0ea142330417d3a178d0196aa</comments>
-      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/70f896d0ea142330417d3a178d0196aa</wfw:commentRss>
-      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
-      <category domain="http://www.delicious.com/esteel/">Vim</category>
-      <category domain="http://www.delicious.com/esteel/">tips</category>
-      <category domain="http://www.delicious.com/esteel/">useful</category>
-    </item>
-    <item>
-      <title>Security Lessons Learned From The Diaspora Launch: MicroISV on a Shoestring</title>
-      <pubDate>Tue, 28 Sep 2010 16:15:42 +0000</pubDate>
-      <guid isPermaLink="false">http://www.delicious.com/url/147d6d032b53b78859f97e768883cfa0#esteel</guid>
-      <link>http://www.kalzumeus.com/2010/09/22/security-lessons-learned-from-the-diaspora-launch/</link>
-      <dc:creator><![CDATA[esteel]]></dc:creator>
-      <comments>http://www.delicious.com/url/147d6d032b53b78859f97e768883cfa0</comments>
-      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/147d6d032b53b78859f97e768883cfa0</wfw:commentRss>
-      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
-      <description>&amp;quot;The bottom line is currently there is nothing that you cannot do to someone’s Diaspora account, absolutely nothing&amp;quot;. Ouch.</description>
-      <category domain="http://www.delicious.com/esteel/">security</category>
-      <category domain="http://www.delicious.com/esteel/">rails</category>
-      <category domain="http://www.delicious.com/esteel/">ruby</category>
-      <category domain="http://www.delicious.com/esteel/">programming</category>
-      <category domain="http://www.delicious.com/esteel/">mongodb</category>
-      <category domain="http://www.delicious.com/esteel/">rubyonrails</category>
-      <category domain="http://www.delicious.com/esteel/">diaspora</category>
-      <category domain="http://www.delicious.com/esteel/">dtigtag</category>
-    </item>
-    <item>
-      <title>NatWest Help</title>
-      <pubDate>Thu, 16 Sep 2010 09:44:10 +0000</pubDate>
-      <guid isPermaLink="false">http://www.delicious.com/url/325a0135f3b2ed2e5177b418e27d3116#esteel</guid>
-      <link>https://www.questions.natwest.com/RBSG/index?page=content&amp;id=FA101</link>
-      <dc:creator><![CDATA[esteel]]></dc:creator>
-      <comments>http://www.delicious.com/url/325a0135f3b2ed2e5177b418e27d3116</comments>
-      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/325a0135f3b2ed2e5177b418e27d3116</wfw:commentRss>
-      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
-      <description>NatWest: Helpful banking. &amp;quot;No, you can&amp;#039;t tell us you&amp;#039;re taking your card abroad, but you&amp;#039;d better take our international call centre number, because you can be sure we&amp;#039;ll block the bastard.&amp;quot;</description>
-      <category domain="http://www.delicious.com/esteel/">badservice</category>
-      <category domain="http://www.delicious.com/esteel/">natwest</category>
-      <category domain="http://www.delicious.com/esteel/">fail</category>
-      <category domain="http://www.delicious.com/esteel/">creditcard</category>
-      <category domain="http://www.delicious.com/esteel/">avoid</category>
-    </item>
-    <item>
-      <title>NoSQL, Heroku, and You</title>
-      <pubDate>Mon, 13 Sep 2010 11:28:12 +0000</pubDate>
-      <guid isPermaLink="false">http://www.delicious.com/url/4383b45d4d820e9c10bfa0398ef6c5e7#esteel</guid>
-      <link>http://blog.heroku.com/archives/2010/7/20/nosql/</link>
-      <dc:creator><![CDATA[esteel]]></dc:creator>
-      <comments>http://www.delicious.com/url/4383b45d4d820e9c10bfa0398ef6c5e7</comments>
-      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/4383b45d4d820e9c10bfa0398ef6c5e7</wfw:commentRss>
-      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
-      <description>An overview of what&amp;#039;s around, noSQL-wise.</description>
-      <category domain="http://www.delicious.com/esteel/">heroku</category>
-      <category domain="http://www.delicious.com/esteel/">cloud</category>
-      <category domain="http://www.delicious.com/esteel/">couchdb</category>
-      <category domain="http://www.delicious.com/esteel/">mongodb</category>
-      <category domain="http://www.delicious.com/esteel/">cassandra</category>
-      <category domain="http://www.delicious.com/esteel/">redis</category>
-      <category domain="http://www.delicious.com/esteel/">memcached</category>
-      <category domain="http://www.delicious.com/esteel/">development</category>
-    </item>
-    <item>
-      <title>HTTP caching</title>
-      <pubDate>Thu, 09 Sep 2010 11:50:55 +0000</pubDate>
-      <guid isPermaLink="false">http://www.delicious.com/url/72c52df9e0b76526170fafef36364d28#esteel</guid>
-      <link>http://docs.heroku.com/http-caching?utm_medium=email&amp;utm_source=EmailBlast&amp;utm_content=480998849&amp;utm_campaign=HerokuSeptemberNewsletter-VersionB&amp;utm_term=varnishdocumentation</link>
-      <dc:creator><![CDATA[esteel]]></dc:creator>
-      <comments>http://www.delicious.com/url/72c52df9e0b76526170fafef36364d28</comments>
-      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/72c52df9e0b76526170fafef36364d28</wfw:commentRss>
-      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
-      <category domain="http://www.delicious.com/esteel/">heroku</category>
-      <category domain="http://www.delicious.com/esteel/">caching</category>
-    </item>
-    <item>
-      <title>Building a Wifi Radio</title>
-      <pubDate>Thu, 09 Sep 2010 11:46:13 +0000</pubDate>
-      <guid isPermaLink="false">http://www.delicious.com/url/298e492daba610813d84953d5c938d61#esteel</guid>
-      <link>http://mightyohm.com/blog/2008/10/building-a-wifi-radio-part-1-introduction/</link>
-      <dc:creator><![CDATA[esteel]]></dc:creator>
-      <comments>http://www.delicious.com/url/298e492daba610813d84953d5c938d61</comments>
-      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/298e492daba610813d84953d5c938d61</wfw:commentRss>
-      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
-      <category domain="http://www.delicious.com/esteel/">diy</category>
-      <category domain="http://www.delicious.com/esteel/">wifi</category>
-      <category domain="http://www.delicious.com/esteel/">radio</category>
-      <category domain="http://www.delicious.com/esteel/">electronics</category>
-      <category domain="http://www.delicious.com/esteel/">openwrt</category>
-      <category domain="http://www.delicious.com/esteel/">linux</category>
-      <category domain="http://www.delicious.com/esteel/">projects</category>
-      <category domain="http://www.delicious.com/esteel/">howto</category>
-    </item>
-    <item>
-      <title>COBOL ON COGS</title>
-      <pubDate>Tue, 07 Sep 2010 10:58:59 +0000</pubDate>
-      <guid isPermaLink="false">http://www.delicious.com/url/45da0ab2a9dc230ac856a47957443abb#esteel</guid>
-      <link>http://www.coboloncogs.org/INDEX.HTM</link>
-      <dc:creator><![CDATA[esteel]]></dc:creator>
-      <comments>http://www.delicious.com/url/45da0ab2a9dc230ac856a47957443abb</comments>
-      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/45da0ab2a9dc230ac856a47957443abb</wfw:commentRss>
-      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
-      <description>COBOL ON COGS+SUPPORTS HYPERLINKS#AND#AN IMPRESSIVE#ARRAY OF SOME_OF\THE_MOST\USEFUL_HTML TAGS SUCH AS &amp;lt;BLINK&amp;gt;, &amp;lt;U&amp;gt;, &amp;lt;BRIGHT&amp;gt; AND &amp;lt;F1&amp;gt;.</description>
-      <category domain="http://www.delicious.com/esteel/">dtigtag</category>
-      <category domain="http://www.delicious.com/esteel/">cobol</category>
-      <category domain="http://www.delicious.com/esteel/">programming</category>
-      <category domain="http://www.delicious.com/esteel/">webdev</category>
-    </item>
-    <item>
-      <title>Java 7 : try-with-resources | @Blog("Baptiste Wicht")</title>
-      <pubDate>Thu, 26 Aug 2010 11:24:52 +0000</pubDate>
-      <guid isPermaLink="false">http://www.delicious.com/url/d8b737897962793548f35d0546c5976d#esteel</guid>
-      <link>http://www.baptiste-wicht.com/2010/08/java-7-try-with-resources-statement/</link>
-      <dc:creator><![CDATA[esteel]]></dc:creator>
-      <comments>http://www.delicious.com/url/d8b737897962793548f35d0546c5976d</comments>
-      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/d8b737897962793548f35d0546c5976d</wfw:commentRss>
-      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
-      <description>Brief description of Java 7&amp;#039;s try-with-resources block</description>
-      <category domain="http://www.delicious.com/esteel/">dtigtag</category>
-      <category domain="http://www.delicious.com/esteel/">java</category>
-      <category domain="http://www.delicious.com/esteel/">programming</category>
-      <category domain="http://www.delicious.com/esteel/">java7</category>
-    </item>
-    <item>
-      <title>Smoothie Charts</title>
-      <pubDate>Mon, 23 Aug 2010 11:18:16 +0000</pubDate>
-      <guid isPermaLink="false">http://www.delicious.com/url/0dca0be0681ac0d89bb9ffa7d08e0f39#esteel</guid>
-      <link>http://smoothiecharts.org/</link>
-      <dc:creator><![CDATA[esteel]]></dc:creator>
-      <comments>http://www.delicious.com/url/0dca0be0681ac0d89bb9ffa7d08e0f39</comments>
-      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/0dca0be0681ac0d89bb9ffa7d08e0f39</wfw:commentRss>
-      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
-      <description>Javascript graphing designed for live streaming data - reading data from web sockets. Webkit/opera only</description>
-      <category domain="http://www.delicious.com/esteel/">javascript</category>
-      <category domain="http://www.delicious.com/esteel/">visualization</category>
-      <category domain="http://www.delicious.com/esteel/">html5</category>
-      <category domain="http://www.delicious.com/esteel/">graph</category>
-      <category domain="http://www.delicious.com/esteel/">js</category>
-      <category domain="http://www.delicious.com/esteel/">library</category>
-      <category domain="http://www.delicious.com/esteel/">dtigtag</category>
-    </item>
-    <item>
-      <title>JavaScript: The Good Parts: Amazon.co.uk: Douglas Crockford: Books</title>
-      <pubDate>Sun, 22 Aug 2010 20:37:20 +0000</pubDate>
-      <guid isPermaLink="false">http://www.delicious.com/url/772680f6cf91386e4ebdd2b19efc0fdd#esteel</guid>
-      <link>http://www.amazon.co.uk/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742</link>
-      <dc:creator><![CDATA[esteel]]></dc:creator>
-      <comments>http://www.delicious.com/url/772680f6cf91386e4ebdd2b19efc0fdd</comments>
-      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/772680f6cf91386e4ebdd2b19efc0fdd</wfw:commentRss>
-      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
-      <description>A serious discussion of the javascript language</description>
-      <category domain="http://www.delicious.com/esteel/">javascript</category>
-      <category domain="http://www.delicious.com/esteel/">book</category>
-      <category domain="http://www.delicious.com/esteel/">want_one</category>
-    </item>
-    <item>
-      <title>DIY soldering iron stand — DIY How-to from Make: Projects</title>
-      <pubDate>Fri, 20 Aug 2010 15:26:23 +0000</pubDate>
-      <guid isPermaLink="false">http://www.delicious.com/url/192343ecdb415925ee76023ca9d42ae5#esteel</guid>
-      <link>http://makeprojects.com/Project/DIY-soldering-iron-stand/213/1</link>
-      <dc:creator><![CDATA[esteel]]></dc:creator>
-      <comments>http://www.delicious.com/url/192343ecdb415925ee76023ca9d42ae5</comments>
-      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/192343ecdb415925ee76023ca9d42ae5</wfw:commentRss>
-      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
-      <category domain="http://www.delicious.com/esteel/">make</category>
-    </item>
-    <item>
-      <title>Amazon.com: Form+Code in Design, Art, and Architecture (Design Briefs) (9781568989372): Casey Reas, Chandler McWilliams: Books</title>
-      <pubDate>Thu, 19 Aug 2010 13:10:16 +0000</pubDate>
-      <guid isPermaLink="false">http://www.delicious.com/url/74e88b530ed7f5261f01aece4821e86f#esteel</guid>
-      <link>http://www.amazon.com/gp/product/1568989377?ie=UTF8&amp;tag=formandcode-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;creativeASIN=1568989377</link>
-      <dc:creator><![CDATA[esteel]]></dc:creator>
-      <comments>http://www.delicious.com/url/74e88b530ed7f5261f01aece4821e86f</comments>
-      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/74e88b530ed7f5261f01aece4821e86f</wfw:commentRss>
-      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
-      <category domain="http://www.delicious.com/esteel/">book</category>
-      <category domain="http://www.delicious.com/esteel/">code</category>
+      <description>Essay and experiment regarding typographic scale and rhythm for web pages.&lt;br /&gt;
+&lt;br /&gt;
+I implemented its fine ideas here.</description>
+      <category domain="http://www.delicious.com/esteel/">typography</category>
+      <category domain="http://www.delicious.com/esteel/">css</category>
+      <category domain="http://www.delicious.com/esteel/">webdesign</category>
       <category domain="http://www.delicious.com/esteel/">design</category>
+      <category domain="http://www.delicious.com/esteel/">layout</category>
+      <category domain="http://www.delicious.com/esteel/">web</category>
+      <category domain="http://www.delicious.com/esteel/">tools</category>
+      <category domain="http://www.delicious.com/esteel/">fonts</category>
+    </item>
+    <item>
+      <title>Hudson's future</title>
+      <pubDate>Tue, 11 Jan 2011 16:10:29 +0000</pubDate>
+      <guid isPermaLink="false">http://www.delicious.com/url/c9d5a583dab543b29b154dc416575af2#esteel</guid>
+      <link>http://www.hudson-labs.org/content/hudsons-future</link>
+      <dc:creator><![CDATA[esteel]]></dc:creator>
+      <comments>http://www.delicious.com/url/c9d5a583dab543b29b154dc416575af2</comments>
+      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/c9d5a583dab543b29b154dc416575af2</wfw:commentRss>
+      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
+      <description>Hudson to be renamed &amp;#039;Jenkins&amp;#039; and moved off Oracle servers. Oracle invited to participate &amp;quot;on equal terms with all other contributors&amp;quot;.</description>
+      <category domain="http://www.delicious.com/esteel/">hudson</category>
+      <category domain="http://www.delicious.com/esteel/">oracle</category>
+      <category domain="http://www.delicious.com/esteel/">exodus</category>
+      <category domain="http://www.delicious.com/esteel/">dtigtag</category>
+    </item>
+    <item>
+      <title>ICSI Netalyzr</title>
+      <pubDate>Tue, 11 Jan 2011 13:13:06 +0000</pubDate>
+      <guid isPermaLink="false">http://www.delicious.com/url/ec8f1493f23c4fbf57157fd85cd23fd6#esteel</guid>
+      <link>http://netalyzr.icsi.berkeley.edu/</link>
+      <dc:creator><![CDATA[esteel]]></dc:creator>
+      <comments>http://www.delicious.com/url/ec8f1493f23c4fbf57157fd85cd23fd6</comments>
+      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/ec8f1493f23c4fbf57157fd85cd23fd6</wfw:commentRss>
+      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
+      <description>Tool for finding performance and security issues with an internet connection. Should find bufferbloat.</description>
+      <category domain="http://www.delicious.com/esteel/">performance</category>
+      <category domain="http://www.delicious.com/esteel/">tool</category>
+      <category domain="http://www.delicious.com/esteel/">security</category>
+      <category domain="http://www.delicious.com/esteel/">network</category>
+    </item>
+    <item>
+      <title>The Humble Indie Bundle #2 (pay what you want for five awesome indie games)</title>
+      <pubDate>Mon, 20 Dec 2010 12:30:31 +0000</pubDate>
+      <guid isPermaLink="false">http://www.delicious.com/url/00fd5a5c0035917407a1135e3eace8cb#esteel</guid>
+      <link>http://www.humblebundle.com/?live</link>
+      <dc:creator><![CDATA[esteel]]></dc:creator>
+      <comments>http://www.delicious.com/url/00fd5a5c0035917407a1135e3eace8cb</comments>
+      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/00fd5a5c0035917407a1135e3eace8cb</wfw:commentRss>
+      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
+      <description>The humble indie bundle #2, for mac, windows and linux. A very successful pay what you like model. Interesting that linux users, the miserly freetards, are the most generous.</description>
+      <category domain="http://www.delicious.com/esteel/">linux</category>
+      <category domain="http://www.delicious.com/esteel/">games</category>
+      <category domain="http://www.delicious.com/esteel/">free_as_in_freedom</category>
+    </item>
+    <item>
+      <title>The Prizefighter inferno - My Brother's Blood Machine</title>
+      <pubDate>Sun, 12 Dec 2010 22:16:51 +0000</pubDate>
+      <guid isPermaLink="false">http://www.delicious.com/url/68a1be4dfab35bb2f399366a5b58187d#esteel</guid>
+      <link>http://www.amazon.co.uk/dp/B000IU381K</link>
+      <dc:creator><![CDATA[esteel]]></dc:creator>
+      <comments>http://www.delicious.com/url/68a1be4dfab35bb2f399366a5b58187d</comments>
+      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/68a1be4dfab35bb2f399366a5b58187d</wfw:commentRss>
+      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
       <category domain="http://www.delicious.com/esteel/">want_one</category>
+      <category domain="http://www.delicious.com/esteel/">mp3</category>
+    </item>
+    <item>
+      <title>Arcade Fire - Neon Bible</title>
+      <pubDate>Sun, 12 Dec 2010 22:12:53 +0000</pubDate>
+      <guid isPermaLink="false">http://www.delicious.com/url/3236aea834e1ee563fb47a2b13c2c0af#esteel</guid>
+      <link>http://www.amazon.co.uk/Neon-Bible/dp/B001LZO44Q/ref=sr_shvl_album_1?ie=UTF8&amp;qid=1292191137&amp;sr=301-1</link>
+      <dc:creator><![CDATA[esteel]]></dc:creator>
+      <comments>http://www.delicious.com/url/3236aea834e1ee563fb47a2b13c2c0af</comments>
+      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/3236aea834e1ee563fb47a2b13c2c0af</wfw:commentRss>
+      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
+      <category domain="http://www.delicious.com/esteel/">mp3</category>
+      <category domain="http://www.delicious.com/esteel/">want_one</category>
+    </item>
+    <item>
+      <title>Coheed and Cambria - Year Of The Black Rainbow</title>
+      <pubDate>Sun, 12 Dec 2010 22:12:25 +0000</pubDate>
+      <guid isPermaLink="false">http://www.delicious.com/url/071e63f56e111ebaf03a627a6caaed0e#esteel</guid>
+      <link>http://www.amazon.co.uk/dp/B003EVUHIM</link>
+      <dc:creator><![CDATA[esteel]]></dc:creator>
+      <comments>http://www.delicious.com/url/071e63f56e111ebaf03a627a6caaed0e</comments>
+      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/071e63f56e111ebaf03a627a6caaed0e</wfw:commentRss>
+      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
+      <category domain="http://www.delicious.com/esteel/">mp3</category>
+      <category domain="http://www.delicious.com/esteel/">want_one</category>
+    </item>
+    <item>
+      <title>Fruit bats - The Ruminant Band</title>
+      <pubDate>Sun, 12 Dec 2010 22:12:02 +0000</pubDate>
+      <guid isPermaLink="false">http://www.delicious.com/url/85f1cd97d58d22204e401475ad1d0690#esteel</guid>
+      <link>http://www.amazon.co.uk/dp/B002J0FUAY</link>
+      <dc:creator><![CDATA[esteel]]></dc:creator>
+      <comments>http://www.delicious.com/url/85f1cd97d58d22204e401475ad1d0690</comments>
+      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/85f1cd97d58d22204e401475ad1d0690</wfw:commentRss>
+      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
+      <category domain="http://www.delicious.com/esteel/">mp3</category>
+      <category domain="http://www.delicious.com/esteel/">want_one</category>
+    </item>
+    <item>
+      <title>The Shins - Oh, Inverted World</title>
+      <pubDate>Sun, 12 Dec 2010 22:11:28 +0000</pubDate>
+      <guid isPermaLink="false">http://www.delicious.com/url/b212fcbb2735e6c32b1d88e4b912ff94#esteel</guid>
+      <link>http://www.amazon.co.uk/dp/B003WR1DEU</link>
+      <dc:creator><![CDATA[esteel]]></dc:creator>
+      <comments>http://www.delicious.com/url/b212fcbb2735e6c32b1d88e4b912ff94</comments>
+      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/b212fcbb2735e6c32b1d88e4b912ff94</wfw:commentRss>
+      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
+      <category domain="http://www.delicious.com/esteel/">mp3</category>
+      <category domain="http://www.delicious.com/esteel/">want_one</category>
+    </item>
+    <item>
+      <title>The Mars Volta - Frances The Mute</title>
+      <pubDate>Sun, 12 Dec 2010 22:10:44 +0000</pubDate>
+      <guid isPermaLink="false">http://www.delicious.com/url/1174f33754d6681640d8449dadb74f0f#esteel</guid>
+      <link>http://www.amazon.co.uk/dp/B001KKDE9S</link>
+      <dc:creator><![CDATA[esteel]]></dc:creator>
+      <comments>http://www.delicious.com/url/1174f33754d6681640d8449dadb74f0f</comments>
+      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/1174f33754d6681640d8449dadb74f0f</wfw:commentRss>
+      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
+      <category domain="http://www.delicious.com/esteel/">mp3</category>
+      <category domain="http://www.delicious.com/esteel/">want_one</category>
+    </item>
+    <item>
+      <title>The Mars Volta - Octahedron</title>
+      <pubDate>Sun, 12 Dec 2010 22:10:25 +0000</pubDate>
+      <guid isPermaLink="false">http://www.delicious.com/url/122785a96bbb0607d13c0699c05a082e#esteel</guid>
+      <link>http://www.amazon.co.uk/dp/B002A4M0L6</link>
+      <dc:creator><![CDATA[esteel]]></dc:creator>
+      <comments>http://www.delicious.com/url/122785a96bbb0607d13c0699c05a082e</comments>
+      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/122785a96bbb0607d13c0699c05a082e</wfw:commentRss>
+      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
+      <category domain="http://www.delicious.com/esteel/">mp3</category>
+      <category domain="http://www.delicious.com/esteel/">want_one</category>
+    </item>
+    <item>
+      <title>The Mars Volta - The Bedlam in Goliath</title>
+      <pubDate>Sun, 12 Dec 2010 22:10:03 +0000</pubDate>
+      <guid isPermaLink="false">http://www.delicious.com/url/94021796360d6134540051094892c542#esteel</guid>
+      <link>http://www.amazon.co.uk/dp/B001KF2548</link>
+      <dc:creator><![CDATA[esteel]]></dc:creator>
+      <comments>http://www.delicious.com/url/94021796360d6134540051094892c542</comments>
+      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/94021796360d6134540051094892c542</wfw:commentRss>
+      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
+      <category domain="http://www.delicious.com/esteel/">mp3</category>
+      <category domain="http://www.delicious.com/esteel/">want_one</category>
+    </item>
+    <item>
+      <title>Coheed and Cambria - No world for tomorrow</title>
+      <pubDate>Sun, 12 Dec 2010 22:09:03 +0000</pubDate>
+      <guid isPermaLink="false">http://www.delicious.com/url/a1cde6015b0b38037265984d976e219d#esteel</guid>
+      <link>http://www.amazon.co.uk/dp/B002AC40KW</link>
+      <dc:creator><![CDATA[esteel]]></dc:creator>
+      <comments>http://www.delicious.com/url/a1cde6015b0b38037265984d976e219d</comments>
+      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/a1cde6015b0b38037265984d976e219d</wfw:commentRss>
+      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
+      <category domain="http://www.delicious.com/esteel/">mp3</category>
+      <category domain="http://www.delicious.com/esteel/">want_one</category>
+    </item>
+    <item>
+      <title>Black Keys - The big come up</title>
+      <pubDate>Sun, 12 Dec 2010 22:07:42 +0000</pubDate>
+      <guid isPermaLink="false">http://www.delicious.com/url/3b0cb073dc830acf87fe311c53e06542#esteel</guid>
+      <link>http://www.amazon.co.uk/dp/B001FBLJOY</link>
+      <dc:creator><![CDATA[esteel]]></dc:creator>
+      <comments>http://www.delicious.com/url/3b0cb073dc830acf87fe311c53e06542</comments>
+      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/3b0cb073dc830acf87fe311c53e06542</wfw:commentRss>
+      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
+      <category domain="http://www.delicious.com/esteel/">mp3</category>
+      <category domain="http://www.delicious.com/esteel/">want_one</category>
+    </item>
+    <item>
+      <title>The Biology of Sloppy Code</title>
+      <pubDate>Sun, 12 Dec 2010 14:09:59 +0000</pubDate>
+      <guid isPermaLink="false">http://www.delicious.com/url/cfc909ecadd975c410bdd095f05d228e#esteel</guid>
+      <link>http://journal.stuffwithstuff.com/2010/11/26/the-biology-of-sloppy-code/</link>
+      <dc:creator><![CDATA[esteel]]></dc:creator>
+      <comments>http://www.delicious.com/url/cfc909ecadd975c410bdd095f05d228e</comments>
+      <wfw:commentRss>http://feeds.delicious.com/v2/rss/url/cfc909ecadd975c410bdd095f05d228e</wfw:commentRss>
+      <source url="http://feeds.delicious.com/v2/rss/esteel">esteel's bookmarks</source>
+      <description>&amp;quot;So I get the lament that programming is becoming less real and it does make me a bit sad that so much of my time programming these days is just jamming chunks of code together. But it doesn’t get me down as much as it does some people, because I know that programming isn’t moving towards softer sciences. It’s simply expanding.&amp;quot;</description>
+      <category domain="http://www.delicious.com/esteel/">programming</category>
+      <category domain="http://www.delicious.com/esteel/">science</category>
+      <category domain="http://www.delicious.com/esteel/">dtigtag</category>
+      <category domain="http://www.delicious.com/esteel/">bobnystrom</category>
     </item>
   </channel>
 </rss>
