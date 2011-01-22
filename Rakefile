@@ -15,8 +15,9 @@ task :gem => [:spec] do
   gem '*.gemspec'
 end
 
-task :clean 
+task :clean
 
+desc "Clear cached feeds and reload them from the web"
 task :load do
   rm_r 'raw/rss/out' if File.exist? 'raw/rss/out'
   rm_r 'entries.yaml' if File.exist? 'entries.yaml'
