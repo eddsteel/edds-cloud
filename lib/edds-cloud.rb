@@ -39,6 +39,12 @@ get '/bucket/*' do
 end
 
 ##
+# Some useful shortcircuits
+#
+get '/cv' do redirect '/bucket/cv.pdf' end
+get '/resume' do redirect '/bucket/cv.pdf' end
+
+##
 # List entries
 #
 get '/' do
