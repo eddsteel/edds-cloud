@@ -1,7 +1,7 @@
 #!/usr/bin/ruby -w
 # GPL
 
-libdir = File.dirname(__FILE__) + "/lib"
+libdir = File.dirname(__FILE__) + "/edds-cloud"
 $LOAD_PATH.unshift libdir unless $LOAD_PATH.include? libdir
 
 require 'rubygems'
@@ -20,6 +20,8 @@ require 'entry'
 configure do
   @@back = CouchBackend.new
   @@clouds = File.read('public/clouds.txt').split("\n")
+  set :views, File.dirname(__FILE__) + '/../views'
+  set :public, File.dirname(__FILE__) + '/../public'
 end
 
 ##

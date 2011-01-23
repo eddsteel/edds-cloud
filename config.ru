@@ -1,3 +1,3 @@
-require 'edds-cloud'
+require 'lib/edds-cloud'
 run Sinatra::Application
 

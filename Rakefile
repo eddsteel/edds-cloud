@@ -24,7 +24,7 @@ task :load do
   rm_r Dir.glob('raw/rss/*.cached.xml')
   mkdir_p 'raw/rss/out'
   `wget -i raw/rss/sources.list -P raw/rss/out`
-  ruby 'lib/tools/loader.rb'
+  ruby 'lib/edds-cloud/tools/loader.rb'
 end
 
 desc "Push contents of DB to cloudant DB"
