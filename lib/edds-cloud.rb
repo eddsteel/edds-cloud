@@ -33,6 +33,12 @@ configure :dev do
 end
 
 ##
+# Get something from the public S3 bucket
+get '/bucket/*' do
+  redirect "http://s3.amazonaws.com/eddscloud-public/#{params[:splat]}"
+end
+
+##
 # List entries
 #
 get '/' do
