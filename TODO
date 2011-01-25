@@ -1,7 +1,7 @@
-use nouns
-make links float
 tag urls
-date urls
-rake job for local load
-rake job for couch push to net
 permalinks for individual entries (shortened SHA-1)
+ditto for everything in 'resources' doc
+get historic entries
+better tweet support
+from facebook, twitter, buzz: likes, quotes and comments.
+comments
