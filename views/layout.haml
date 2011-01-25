@@ -9,10 +9,12 @@
   %body.cloud
     %header.main
       %hgroup
+        %a{:href => rurl("/about")}
+          %h1
+            %span Edd's
         %a{:href => rurl("/")}
-          %h1 Edd's
-        %a{:href => rurl("/")}
-          %h2 Cloud
+          %h2
+            %span Cloud
     %section#main
       -if @title
         %h2

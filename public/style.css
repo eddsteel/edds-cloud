@@ -87,15 +87,22 @@ html {
   background: #eee;
 }
 
+article:hover a {
+	border-bottom-style: dotted;
+}
+
 a {
   color: #000;
   text-decoration: none;
+  border-color: #555;
+  border-width: 1px;
+  border-style: none;
 }
 
 a:hover {
-  position: relative;
-  top: -1px;
-  text-shadow: 1px 1px 1px #ccc;
+	color: #333;
+	border-bottom-color: #333;
+	border-bottom-style: solid;
 }
 
 a:visited {
@@ -151,10 +158,16 @@ section.content {
 
 article footer, article footer a {
   color: #555;
+  border-bottom-color: #777;
 }
 
 article footer span {
   margin: 0 0.75em 0 0;
+}
+
+article footer a:hover {
+	color: #999;
+	color: #777;
 }
 
 
@@ -181,6 +194,10 @@ article footer span {
 	padding: 0 0 0 1.5em;
 }
 
+.cloud header h1 span {
+  border: 1px none #000;
+}
+
 .cloud header h2
 {
 	display: block;
@@ -194,6 +211,15 @@ article footer span {
   padding: 0 0 0.1em 0; /* These lines shift title */
   margin: -0.35em 0 0 0; /*  up 0.25em - 1.5EM */
 }
+
+.cloud header h2 span {
+  border: 1px none #e0e0e0;
+}
+
+header.main:hover h1 span {
+	border-bottom-style: dotted;
+}
+
 
 /*
  * Footer
