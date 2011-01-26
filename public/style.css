@@ -99,7 +99,7 @@ a {
   border-style: none;
 }
 
-a:hover {
+a:hover,article:hover a:hover {
 	color: #333;
 	border-bottom-color: #333;
 	border-bottom-style: solid;
