@@ -266,6 +266,18 @@ blockquote em, blockquote a {
   font-style: normal;
 }
 
+ul.links li {
+  border-bottom: solid 1px #ddd;
+}
+
+ul.links li:hover {
+  border-bottom-color: #aaa;
+}
+
+ul.links li:hover a:hover{
+  border-bottom: none;
+}
+
 /*---------------------------- */
 
 /*grid*/

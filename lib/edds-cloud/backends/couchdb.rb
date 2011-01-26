@@ -129,9 +129,15 @@ class CouchBackend
     get_entries(url, false)
   end
 
-  #def tags()
-    #url = "/#@db_name/_design/stats/_view/tags?descending=true"
-  #end
+  def tags()
+    url = "/#@db_name/_design/stats/_view/tags?group=true&descending=true"
+    list = curl(URI::encode(url))['rows']
+    tags = {}
+    list.each do |item|
+      tags[item['key']] = item['value']
+    end
+    tags
+  end
 
 
   def persist

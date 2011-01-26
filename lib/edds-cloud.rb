@@ -99,6 +99,19 @@ get %r{/(\d{4})} do
   display :year, :locals=>{:year=>year}
 end
 
+##
+# List tags
+#
+get '/tag' do
+  locals = {}
+  locals[:tags] = @@back.tags
+  locals[:taglist] = locals[:tags].keys
+  locals[:height] = (locals[:taglist].size / 3).to_i
+
+  @title = 'Tags'
+  display :tags, :locals=>locals
+end
+
 helpers do
   # TODO: out to templates, or lib
   def linkify(text)
