@@ -105,7 +105,7 @@ end
 get '/tag' do
   locals = {}
   locals[:tags] = @@back.tags
-  locals[:taglist] = locals[:tags].keys
+  locals[:taglist] = locals[:tags].keys.sort {|a,b| locals[:tags][b] <=> locals[:tags][a]}
   locals[:height] = (locals[:taglist].size / 3).to_i
 
   @title = 'Tags'
