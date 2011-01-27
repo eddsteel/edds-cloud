@@ -51,15 +51,15 @@ get '/about' do redirect '/' end
 #
 get '/' do
   @entries, @next_key = @@back.entries(0, 10)
-  display :page
+  display :entries
 end
 
 ##
 # List 2nd page of entries
 #
-get '/more' do
+get '/more/?' do
   @entries, @next_key = @@back.entries(10, 10)
-  display :page
+  display :entries
 end
 
 ##
