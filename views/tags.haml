@@ -1,9 +1,9 @@
 %section.contents
-  -taglist.enum_slice(height).each do |ctags|
+  -taglist.each_slice(height) do |ctags|
     %ul.links
       -ctags.each do |tag|
         %li
-          %a{:href=>'#'}
+          %a{:href=>rurl("/tag/#{tag}")}
             = "#{tag}"
-            %span{:style=>'float:right'}
+            %span.number
               = "#{tags[tag]}"

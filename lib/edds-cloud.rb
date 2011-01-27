@@ -112,7 +112,25 @@ get '/tag' do
   display :tags, :locals=>locals
 end
 
+##
+# List entries for a tag
+get '/tag/*' do
+  clean_splat = sanitize(params[:splat].first)
+  @entries, @next_key = @@back.entries_for_tag(clean_splat)
+
+  display :entries
+end
+
 helpers do
+  ##
+  # Strips non-alphanumeric characters but
+  # allows '.', '-', '_', ',', ':'.
+  # Harsh, because we don't need it not to be.
+  #
+  def sanitize(text)
+    text.gsub(/[^-a-zA-Z0-9.,:_]/, '')
+  end
+
   # TODO: out to templates, or lib
   def linkify(text)
     return nil if text.nil?

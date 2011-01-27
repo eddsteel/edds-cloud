@@ -42,4 +42,11 @@
           = entry.source
       -unless entry.tags.empty?
         %span.tags<
-          = "tagged #{entry.tags.join(', ')}"
+          tagged 
+          - first = entry.tags.size > 1
+          - entry.tags.each do |tag|
+            - link = %Q! <a href="#{rurl(%Q[/tag/#{tag}])}"!
+            - link = link + ">#{tag}</a>"
+            - link = link + "," if first
+            = link
+            - first = false

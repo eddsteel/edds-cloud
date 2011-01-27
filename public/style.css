@@ -278,6 +278,10 @@ ul.links li:hover a:hover{
   border-bottom: none;
 }
 
+.number {
+	float: right;
+}
+
 /*---------------------------- */
 
 /*grid*/

@@ -129,6 +129,14 @@ class CouchBackend
     get_entries(url, false)
   end
 
+  def entries_for_tag(tag)
+    url = "/#@db_name/_design/docs/_view/by_tag" +
+    "?startkey=#{tag.to_json}" +
+    "&endkey=#{tag.to_json}"
+
+    get_entries(url, false)
+  end
+
   def tags()
     url = "/#@db_name/_design/stats/_view/tags?group=true&descending=true"
     list = curl(URI::encode(url))['rows']
