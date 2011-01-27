@@ -35,7 +35,8 @@ end
 ##
 # Get something from the public S3 bucket
 get '/bucket/*' do
-  redirect "http://s3.amazonaws.com/eddscloud-public/#{params[:splat]}"
+  uri_part = URI::encode(params[:splat])
+  redirect "http://s3.amazonaws.com/eddscloud-public/#{uri_part}"
 end
 
 ##
@@ -66,35 +67,35 @@ end
 #
 get %r{^/more/\[?(.*)\]?$} do
   @entries, @next_key = @@back.entries_from(
-    "[#{params[:captures].first}]", 10)
-  display :page
+    "[#{sanitize(params[:captures].first)}]", 10)
+  display :entries
 end
 
 ##
 # List all entries for day
 #
-get %r{/(\d{4})/(\d{1,2})/(\d{1,2})} do
-  y, m, d = params[:captures].map {|p| p.to_i}
+get %r{/(\d{4})/(\d{1,2})/(\d{1,2})/?} do
+  y, m, d = params[:captures].map {|p| sanitize(p).to_i}
   @entries, @next_key = @@back.entries_for_day(y, m, d)
   @title = "#{d} #{month_name(m)}, #{y}"
-  display :page
+  display :entries
 end
 
 ##
 # List all entries for a month
 #
-get %r{/(\d{4})/(\d{1,2})} do
-  y, m = params[:captures].map {|p| p.to_i}
+get %r{/(\d{4})/(\d{1,2})/?} do
+  y, m = params[:captures].map {|p| sanitize(p).to_i}
   @entries, @next_key = @@back.entries_for_month(y, m)
   @title = "#{month_name(m)}, #{y}"
-  display :page
+  display :entries
 end
 
 ##
 # List all entries for a year
 #
-get %r{/(\d{4})} do
-  year = params[:captures][0]
+get %r{/(\d{4})/?} do
+  year = sanitize(params[:captures][0])
   @title = "#{year}"
   display :year, :locals=>{:year=>year}
 end
