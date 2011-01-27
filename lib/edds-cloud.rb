@@ -103,7 +103,8 @@ end
 ##
 # List tags
 #
-get '/tag' do
+get '/tag' do redirect '/tag/' end
+get '/tag/' do
   locals = {}
   locals[:tags] = @@back.tags
   locals[:taglist] = locals[:tags].keys.sort {|a,b| locals[:tags][b] <=> locals[:tags][a]}
