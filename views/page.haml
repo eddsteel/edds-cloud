@@ -36,7 +36,7 @@
       %span.source<
         on
         -if "#{entry.source_url}".start_with? 'http://'
-          %a{:href=>"#{entry.source_url}"}<
+          %a{:href=>entry.source_url}<
             = entry.source
         -else
           = entry.source

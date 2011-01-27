@@ -93,12 +93,12 @@ class CouchBackend
     entries = list.map do |item|
       Entry.from_json_hash(item['value'])
     end
-    
+
     next_key = list.last['key'].to_json[1..-2] if with_next
     [entries, next_key]
   end
 
-  
+
   def entries_from(start, count=10)
     startkey = start
     url = "/#@db_name/_design/docs/_view/by_time" + 
