@@ -45,6 +45,7 @@ end
 get '/cv' do redirect '/bucket/cv.pdf' end
 get '/resume' do redirect '/bucket/cv.pdf' end
 get '/about' do redirect '/' end
+get '/qr' do redirect '/about' end
 
 ##
 # List entries
