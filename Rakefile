@@ -19,11 +19,12 @@ task :clean
 
 desc "Clear cached feeds and reload them from the web"
 task :load do
-  rm_r 'raw/rss/out' if File.exist? 'raw/rss/out'
-  rm_r 'entries.yaml' if File.exist? 'entries.yaml'
-  rm_r Dir.glob('raw/rss/*.cached.xml')
-  mkdir_p 'raw/rss/out'
-  `wget -i raw/rss/sources.list -P raw/rss/out`
+  out = ENV['TMP'] || raw
+  rm_r "#{out}/rss/out" if File.exist? "#{out}/rss/out"
+  rm_r "#{out}/entries.yaml" if File.exist? "#{out}/entries.yaml"
+  rm_r Dir.glob("#{out}/rss/*.cached.xml")
+  mkdir_p "#{out}/rss/out"
+  `wget -i raw/rss/sources.list -P #{out}/rss/out`
   ruby 'lib/edds-cloud/tools/loader.rb'
 end
 
