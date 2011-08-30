@@ -282,6 +282,18 @@ ul.links li:hover a:hover{
 	float: right;
 }
 
+img.qr {
+	width: 63px;
+	height: 63px;
+	margin: 0 auto;
+	display: block;
+}
+
+img.qr:hover {
+	outline: black;
+	text-decoration: none;
+}
+
 /*---------------------------- */
 
 /*grid*/
@@ -298,3 +310,4 @@ ul.links li:hover a:hover{
 	display: none;
 	height: 1.5em;
 }
+
