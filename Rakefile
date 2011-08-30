@@ -42,3 +42,6 @@ task :replicate do
   -H "Content-Type: application/json" \
   #{source}/_replicate`
 end
+
+desc "Cron job, run by heroku every hour"
+task :cron => :load
