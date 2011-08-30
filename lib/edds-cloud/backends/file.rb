@@ -6,7 +6,7 @@ require 'backends/backend'
 class FileBackend
   include Backend
 
-  @@FILE_NAME = "#{ENV['TMP'] || raw}/entries.yaml"
+  @@FILE_NAME = "#{ENV['TMP'] || 'raw'}/entries.yaml"
 
   def initialize
     @entries = []

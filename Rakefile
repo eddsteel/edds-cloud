@@ -19,7 +19,7 @@ task :clean
 
 desc "Clear cached feeds and reload them from the web"
 task :load do
-  out = ENV['TMP'] || raw
+  out = ENV['TMP'] || 'raw'
   rm_r "#{out}/rss/out" if File.exist? "#{out}/rss/out"
   rm_r "#{out}/entries.yaml" if File.exist? "#{out}/entries.yaml"
   rm_r Dir.glob("#{out}/rss/*.cached.xml")
