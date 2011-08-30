@@ -25,6 +25,11 @@ task :load do
   rm_r Dir.glob("#{out}/rss/*.cached.xml")
   mkdir_p "#{out}/rss/out"
   `wget -i raw/rss/sources.list -P #{out}/rss/out`
+  {'esteel' => 'delicious.xml',
+   'user%2F18259483549891522271%2Fstate%2Fcom.google%2Fbroadcast' => 'google.xml',
+   '5505502.rss' => 'twitter.xml'}.each do |source, target|
+    mv "#{out}/rss/out/#{source}", "#{out}/rss/#{target}"
+  end
   ruby 'lib/edds-cloud/tools/loader.rb'
 end
 

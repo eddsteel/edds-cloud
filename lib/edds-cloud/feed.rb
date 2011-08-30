@@ -16,7 +16,7 @@ class Feed
   end
 
   def self.load(source)
-    file = "raw/rss/#{source}.xml"
+    file = "#{ENV['TMP'] || 'raw'}/rss/#{source}.xml"
     cached_file = cached_feed(file)
     if (File.exists?(cached_file))
       raw_feed = YAML::load(File.read(cached_file))
