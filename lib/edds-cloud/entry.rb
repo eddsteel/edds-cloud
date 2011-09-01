@@ -17,6 +17,8 @@ class Entry
       SharedLink.new(source, post)
     when :google
       SharedItem.new(source, post)
+    when :github
+      Action.new(source, post)
     end
   end
 
@@ -205,4 +207,7 @@ class SharedLink < Entry
     super
     @author = nil
   end
+end
+
+class Action < Entry
 end

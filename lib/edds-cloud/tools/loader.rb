@@ -15,7 +15,7 @@ class Loader
 
   def load
     if (@source.empty?)
-      %w[google delicious twitter].each do |source|
+      %w[delicious google twitter github].each do |source|
         @source.add(Feed.load(source))
       end
       @source.persist
