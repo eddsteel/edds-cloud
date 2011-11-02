@@ -1,7 +1,8 @@
 tag urls
+fix tags from RSS
 permalinks for individual entries (shortened SHA-1)
 ditto for everything in 'resources' doc
 get historic entries
-better tweet support
+better tweet support - fetch full content of retweets/ replace with API.
 from facebook, twitter, buzz: likes, quotes and comments.
 comments
