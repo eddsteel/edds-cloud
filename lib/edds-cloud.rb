@@ -43,11 +43,15 @@ end
 # Some useful shortcircuits
 #
 get '/cv' do redirect '/bucket/cv.pdf' end
-get '/resume' do redirect '/bucket/cv.pdf' end
+get '/resume.pdf' do redirect '/bucket/cv.pdf' end
 get '/qr' do redirect '/about' end
 
 get '/about' do
   display :about
+end
+
+get 'resume' do
+  send_file '../public/cv.html'
 end
 
 ##
