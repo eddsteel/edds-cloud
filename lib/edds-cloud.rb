@@ -21,7 +21,7 @@ configure do
   @@back = CouchBackend.new
   @@clouds = File.read('public/clouds.txt').split("\n")
   set :views, File.dirname(__FILE__) + '/../views'
-  set :public_folder, File.dirname(__FILE__) + '/../public'
+  set :public, File.dirname(__FILE__) + '/../public'
 end
 
 ##
