@@ -21,7 +21,7 @@ configure do
   @@back = CouchBackend.new
   @@clouds = File.read('public/clouds.txt').split("\n")
   set :views, File.dirname(__FILE__) + '/../views'
-  set :public, File.dirname(__FILE__) + '/../public'
+  set :public_folder, File.dirname(__FILE__) + '/../public'
 end
 
 ##
@@ -50,7 +50,7 @@ get '/about' do
   display :about
 end
 
-get 'resume' do
+get '/resume' do
   send_file 'public/cv.html'
 end
 
