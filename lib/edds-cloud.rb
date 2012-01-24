@@ -35,7 +35,7 @@ end
 ##
 # Get something from the public S3 bucket
 get '/bucket/*' do
-  uri_part = URI::encode(params[:splat])
+  uri_part = URI::encode(params[:splat][0])
   redirect "http://s3.amazonaws.com/eddscloud-public/#{uri_part}"
 end
 
@@ -51,7 +51,7 @@ get '/about' do
 end
 
 get 'resume' do
-  send_file '../public/cv.html'
+  send_file 'public/cv.html'
 end
 
 ##
