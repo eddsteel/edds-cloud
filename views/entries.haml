@@ -38,7 +38,7 @@
               ="@#{entry.meta.quoting}"
       %span.source<
         on
-        -if "#{entry.source_url}".start_with? 'http://'
+        -if "#{entry.source_url}" =~ /https?:\/\//
           %a{:href=>entry.source_url}<
             = entry.source
         -else
