@@ -12,8 +12,7 @@ require 'date'
 class CouchBackend
   include Backend
 
-  @@DEF_DB_URL = ENV['CLOUDANT_URL'] ||
-    'http://localhost:5984'
+  @@DEF_DB_URL = ENV['CLOUDANT_URL'] || 'http://localhost:5984'
   @@DEF_DB_NAME = 'entries'
 
   attr_reader :info
@@ -49,7 +48,7 @@ class CouchBackend
     begin
       store.curl("/#{db_name}")
     rescue => e
-      if e.respond_to? :http_code && e.http_code == 404 # Not Found
+      if e.respond_to? :http_code and e.http_code == 404 # Not Found
         store.create
       else
         raise e
@@ -67,10 +66,10 @@ class CouchBackend
     begin
       curl("/#@db_name", :post, entry.to_json)
     rescue => e
-      if e.respond_to? :http_code && e.http_code == 409 # Conflict
+      if e.respond_to? :http_code and e.http_code == 409 # Conflict
         puts "Ignoring conflict; I don't know how to update."
       else
-        raise
+        raise e
       end
     end
   end
