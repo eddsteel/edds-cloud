@@ -69,6 +69,7 @@ class CouchBackend
       if e.respond_to? :http_code and e.http_code == 409 # Conflict
         puts "Ignoring conflict; I don't know how to update."
       else
+        puts "Error on #{p entry}"
         raise e
       end
     end
