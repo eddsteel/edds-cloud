@@ -17,6 +17,8 @@ class Entry
       SharedLink.new(source, post)
     when :google
       SharedItem.new(source, post)
+    when :github
+      Action.new(source, post)
     end
   end
 
@@ -98,7 +100,7 @@ class Entry
 end
 
 class Tweet < Entry
-  @@TAG_RE = /\B#\S+\b/
+  @@TAG_RE = /\B#\S+[^;]\b/
 
   def initialize(source, post)
     super
@@ -171,7 +173,7 @@ class SharedItem < Entry
   private 
   # Hacky way of jumping between quotes and new content: 3 line breaks.
   def extract_content(post_content)
-    doc = Hpricot.parse(post_content)
+    doc = Hpricot(post_content)
     html = ''
     if (doc % :blockquote)
       parts = (doc % :blockquote).children
@@ -205,4 +207,40 @@ class SharedLink < Entry
     super
     @author = nil
   end
+end
+
+class Action < Entry
+  def initialize(source, post)
+    super
+    @author = author.split(/\n[ ]*/)[1] unless @author.nil?
+    @title = nil
+    url = extract_source_url @content unless @content.nil?
+    unless url.nil?
+      @source_url = url
+    end
+    @content = extract_content @content unless @content.nil?
+  end
+
+  def html_content?
+    true
+  end
+
+  private
+  def extract_content(content)
+    doc = Hpricot(content)
+    html = ((doc % 'div.title').inner_html).split("\n")[1] + ".\n"
+    (doc / 'div.message' / 'blockquote').each do |bq|
+      html += "#{bq.to_s}\n"
+    end
+
+    html
+  end
+
+  def extract_source_url(content)
+    doc = Hpricot(content)
+    link =  doc % 'li.more a' 
+
+    link.nil? ? nil : link['href']
+  end
+
 end
