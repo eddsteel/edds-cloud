@@ -137,7 +137,7 @@ class CouchBackend
     get_entries(url, false)
   end
 
-  def tags()
+  def tags
     url = "/#@db_name/_design/stats/_view/tags?group=true&descending=true"
     list = curl(URI::encode(url))['rows']
     tags = {}
@@ -153,16 +153,20 @@ class CouchBackend
   end
 
 
-  def curl(url='', method=:get, data=nil)
+  def curl url='', method=:get, data=nil
     args = {:content_type=>'application/json',
       :accept=>'application/json'}
     resp = ''
 
-    if data.nil?
-      resp = RestClient.send method, (@db + url), args
-    else
-      resp = RestClient.send method, (@db + url), data,
-        args
+    begin
+      if data.nil?
+        resp = RestClient.send method, (@db + url), args
+      else
+        resp = RestClient.send method, (@db + url), data,
+          args
+      end
+    rescue
+      raise "Failed to reach #{@db + url}"
     end
 
     JSON::parse(resp.body)
