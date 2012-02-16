@@ -49,10 +49,10 @@ class CouchBackend
     begin
       store.curl("/#{db_name}")
     rescue => e
-      if e.http_code == 404 # Not Found
+      if e.respond_to? :http_code && e.http_code == 404 # Not Found
         store.create
       else
-        raise
+        raise e
       end
     end
 
@@ -67,7 +67,7 @@ class CouchBackend
     begin
       curl("/#@db_name", :post, entry.to_json)
     rescue => e
-      if e.http_code == 409 # Conflict
+      if e.respond_to? :http_code && e.http_code == 409 # Conflict
         puts "Ignoring conflict; I don't know how to update."
       else
         raise
