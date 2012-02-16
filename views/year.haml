@@ -4,11 +4,13 @@
   - target = y * 100
   %ul
     -(1..4).each do |month|
-      - if target + month <= now
-        %li
+      %li
+        - if target + month <= now
           %a{:href=>rurl("/#{year}/#{month}"),
              :title=>"#{month_name(month)}, #{year}"}
             =month_name(month)
+        - else
+          &nbsp;
   - if target + 5 <= now
     %ul
       -(5..8).each do |month|
