@@ -100,7 +100,7 @@ class Entry
 end
 
 class Tweet < Entry
-  @@TAG_RE = /\B#\S+\b/
+  @@TAG_RE = /\B#\S+[^;]\b/
 
   def initialize(source, post)
     super
