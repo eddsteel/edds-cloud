@@ -69,7 +69,7 @@ class CouchBackend
       if e.respond_to? :http_code and e.http_code == 409 # Conflict
         puts "Ignoring conflict; I don't know how to update."
       else
-        puts "Error on #{p entry}"
+        puts "Error on #{p entry.to_json}"
         raise e
       end
     end
@@ -165,8 +165,8 @@ class CouchBackend
         resp = RestClient.send method, (@db + url), data,
           args
       end
-    rescue
-      raise "Failed to reach #{@db + url}"
+    rescue => e
+      raise e, "Failed to reach #{@db + url}"
     end
 
     JSON::parse(resp.body)
