@@ -173,7 +173,7 @@ class SharedItem < Entry
   private 
   # Hacky way of jumping between quotes and new content: 3 line breaks.
   def extract_content(post_content)
-    doc = Hpricot.parse(post_content)
+    doc = Hpricot(post_content)
     html = ''
     if (doc % :blockquote)
       parts = (doc % :blockquote).children
