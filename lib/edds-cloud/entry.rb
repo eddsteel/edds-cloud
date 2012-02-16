@@ -36,6 +36,10 @@ class Entry
     end
   end
 
+  def html_content?
+    false
+  end
+
   def month
     @date.month
   end
