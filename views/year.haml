@@ -1,6 +1,7 @@
 %section.contents
   - now = (Date.today.year * 100) + Date.today.month
-  - target = year.to_i * 100
+  - y = year.to_i
+  - target = y * 100
   %ul
     -(1..4).each do |month|
       - if target + month <= now
@@ -24,3 +25,10 @@
             %a{:href=>rurl("/#{year}/#{month}"),
                :title=>"#{month_name(month)}, #{year}"}
               =month_name(month)
+%nav.dates
+  %a{:href=>rurl("/#{y - 1}"), :title=>"#{y - 1}"}
+    = "« #{y - 1}"
+  - if y < Date.today.year
+    |
+    %a{:href=>rurl("/#{y + 1}"), :title=>"#{y + 1}"}
+      ="#{y + 1} »"
