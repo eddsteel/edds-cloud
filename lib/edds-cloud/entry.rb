@@ -89,7 +89,7 @@ class Entry
      :source => @source,
      :content => @content,
      :author => @author,
-     :date => [:year, :month, :day].map{|f| @date.send f},
+     :date => [:year, :month, :day, :hour, :min, :sec].map{|f| @date.send f},
      :url => @url,
      :tags => @tags,
      :source_url => @source_url}
