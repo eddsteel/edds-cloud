@@ -52,6 +52,15 @@ class Entry
     @date.day
   end
 
+  def some_url
+    url = @source_url
+    unless url =~ /https?:\/\//
+      url = @url
+    end
+
+    url
+  end
+
   def <=>(other)
     return 1 if (other.nil? || other.date.nil?)
     return -1 if @date.nil?
@@ -101,6 +110,7 @@ class Entry
   def to_json
     to_json_hash.to_json
   end
+
 end
 
 class Tweet < Entry
@@ -224,6 +234,7 @@ class Action < Entry
   def html_content?
     true
   end
+
 
   private
   def extract_content(content)

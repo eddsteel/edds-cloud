@@ -38,8 +38,8 @@
               ="@#{entry.meta.quoting}"
       %span.source<
         on
-        -if "#{entry.source_url}" =~ /https?:\/\//
-          %a{:href=>entry.source_url}<
+        -if "#{entry.some_url}"
+          %a{:href=>entry.some_url}<
             = entry.source
         -else
           = entry.source
