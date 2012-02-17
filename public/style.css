@@ -329,6 +329,23 @@ img.qr:hover {
 	blockquote {
 		text-align: left;
 	}
+
+	.cloud header hgroup {
+		display: inline-block;
+		padding: 0;
+	}
+	
+	.cloud header h1, .cloud header h2 {
+		font-size: 2em;
+		display: inline-block;
+		position: relative;
+		margin: 0;
+		padding: 0;
+	}
+
+	header.main:hover h1 span {
+		border: none;
+	}
 }
 
 /*---------------------------- */
