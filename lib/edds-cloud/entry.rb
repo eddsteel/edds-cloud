@@ -218,10 +218,6 @@ class Action < Entry
     super
     @author = author.split(/\n[ ]*/)[1] unless @author.nil?
     @title = nil
-    url = extract_source_url @content unless @content.nil?
-    unless url.nil?
-      @source_url = url
-    end
     @content = extract_content @content unless @content.nil?
   end
 
@@ -240,7 +236,7 @@ class Action < Entry
     html
   end
 
-  def extract_source_url(content)
+  def extract_extra_url(content)
     doc = Hpricot(content)
     link =  doc % 'li.more a' 
 
