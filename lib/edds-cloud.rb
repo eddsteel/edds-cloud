@@ -25,7 +25,7 @@ configure do
   @@back = CouchBackend.new
   @@clouds = File.read('public/clouds.txt').split("\n")
   set :views, File.dirname(__FILE__) + '/../views'
-  set :public, File.dirname(__FILE__) + '/../public'
+  set :public_folder, File.dirname(__FILE__) + '/../public'
 end
 
 ##
@@ -111,7 +111,7 @@ get %r{/#{RE[:year]}/#{RE[:md]}(?:#{RE[:ext]}|/)?} do
 end
 
 ##
-# List all entries for a year
+# List month links for a year
 #
 get %r{/#{RE[:year]}/?} do
   year = sanitize(params[:captures][0])
