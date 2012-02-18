@@ -71,6 +71,14 @@ get '/entries.?:ext?' do
 end
 
 ##
+# Get single entry
+#
+get %r[/e/([^./]*)(?:#{RE[:ext]}|/)?] do
+  @entry = @@back.entry(params[:captures][0])
+  display :entry, params[:captures][1]
+end
+
+##
 # List 2nd page of entries
 #
 get '/more.?:ext?/?' do

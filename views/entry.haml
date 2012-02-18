@@ -1,39 +1,54 @@
 %article
-  - if entry.title
+  - if @entry.title
     %h1
-      - if entry.author
-        = "#{entry.author}: "
-      %a{:href=>entry.url}
-        = entry.title
+      - if @entry.author
+        = "#{@entry.author}: "
+      %a{:href=>@entry.url}
+        = @entry.title
   %section.content
-    %p
-      = linkify(entry.content)
+    - if @entry.html_content?
+      = @entry.content
+    - else
+      = linkify(@entry.content)
   %footer
-    -if entry.date
+    -if @entry.date
       %span.date<
-        = format_date(entry.date)
-    %span.source<
-      on
-      -if "#{entry.source_url}".start_with? 'http://'
-        %a{:href=>"#{entry.source_url}"}<
-          = entry.source
-      -else
-        = entry.source
-    -unless entry.tags.empty?
-      %span.tags<
-        = "tagged #{entry.tags.join(', ')}"
-    -if entry.meta
+        %a{:href=>rurl("/#{@entry.year}/#{@entry.month}/#{@entry.day}")}><
+          = "#{@entry.date.strftime('%d')}&nbsp;"
+        %a{:href=>rurl("/#{@entry.year}/#{@entry.month}")}><
+          = "#{@entry.date.strftime('%b')}"
+        = ',&nbsp;'
+        %a{:href=>rurl("/#{@entry.year}")}><
+          = "#{@entry.date.strftime('%Y')}"
+    -if @entry.meta
       %span.meta<
-        - if entry.meta.recipient
-          - if entry.meta.response_id
+        - if @entry.meta.recipient
+          - if @entry.meta.response_id
             in reply to 
-            %a.reply{:href=>"#{url}status/#{entry.meta.response_id}"}<
-              ="@#{entry.meta.recipient}"
+            %a.reply{:href=>"#{@entry.baseurl}status/#{@entry.meta.response_id}"}<
+              ="@#{@entry.meta.recipient}"
           - else
             to 
-            %a.to{:href=>"#{url}#{entry.meta.recipient}"}<
-              ="@#{entry.meta.recipient}"
-        - if entry.meta.quoting
+            %a.to{:href=>"#{@entry.baseurl}#{@entry.meta.recipient}"}<
+              ="@#{@entry.meta.recipient}"
+        - if @entry.meta.quoting
           quoting 
-          %a.quoting{:href=>"#{url}#{entry.meta.quoting}"}<
-            ="@#{entry.meta.quoting}"
+          %a.quoting{:href=>"#{@entry.baseurl}#{@entry.meta.quoting}"}<
+            ="@#{@entry.meta.quoting}"
+    %span.source<
+      on
+      -if "#{@entry.some_url}"
+        %a{:href=>@entry.some_url}<
+          = @entry.source
+      -else
+        = @entry.source
+    -unless @entry.tags.empty?
+      %span.tags<
+        tagged 
+        - first = @entry.tags.size > 1
+        - @entry.tags.each do |tag|
+          - link = %Q! <a href="#{rurl(%Q[/tag/#{tag}])}"!
+          - link = link + ">#{tag}</a>"
+          - link = link + "," if first
+          = link
+          - first = false

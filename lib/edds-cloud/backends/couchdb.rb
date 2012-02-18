@@ -87,6 +87,11 @@ class CouchBackend
     get_entries(url)
   end
 
+  def entry(id)
+    url = "/#@db_name/#{URI.encode(id, /[^a-zA-Z0-9]/)}"
+    Entry.from_json_hash(curl(url))
+  end
+
   def get_entries(url, with_next = true)
     list = curl(URI::encode(url))['rows']
     list = list[0..-2] if with_next

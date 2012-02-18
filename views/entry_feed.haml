@@ -14,12 +14,17 @@
   -@entries.each do |entry|
     %entry
       %title
-        =entry.title
-      %link{:href=>"http://edd.heroku.com/e/#{entry.id_url}"}
-      %link{:rel=>'alternate', :type=>'text/html', :href=>entry.some_url}
+        =entry.title || "Activity on #{entry.source}"
+      %link{:rel=>'alternate', :type=>'text/html',:href=>"http://edd.heroku.com/e/#{entry.id_url}"}
+      %link{:href=>"http://edd.heroku.com/e/#{entry.id_url}.atom"}
       %id
         =entry.tag_uri
       %updated 
         =entry.date.strftime '%Y-%m-%dT%H:%M:%S%z'
       %content{:type=>'html', :"xml:lang"=>"en"}
         =entry.content
+        %p
+          (
+          %a{:href=>entry.some_url}><
+            source
+          )
