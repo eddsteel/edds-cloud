@@ -1,0 +1,25 @@
+!!!xml
+%feed{:xmlns=>'http://www.w3.org/2005/Atom'}
+  %title
+    Edd's Feed
+  %link{:href=>'http://edd.heroku.com/entries.atom', :rel=>'self'}
+  %link{:href=>'http://edd.heroku.com'}
+  %id
+    =@id
+  %updated
+    =Time.now.strftime '%Y-%m-%dT%H:%M:%S%z'
+  %author
+    %name Edd Steel
+    %email edward.steel@gmail.com
+  -@entries.each do |entry|
+    %entry
+      %title
+        =entry.title
+      %link{:href=>"http://edd.heroku.com/e/#{entry.id_url}"}
+      %link{:rel=>'alternate', :type=>'text/html', :href=>entry.some_url}
+      %id
+        =entry.tag_uri
+      %updated 
+        =entry.date.strftime '%Y-%m-%dT%H:%M:%S%z'
+      %content{:type=>'html', :"xml:lang"=>"en"}
+        =entry.content

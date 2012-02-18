@@ -52,6 +52,19 @@ class Entry
     @date.day
   end
 
+  def id_url
+    URI.escape((@source_url || '0'), /[^0-9a-zA-Z]/)
+  end
+
+  def tag_uri
+    date = @date.strftime '%Y-%m-d'
+    Entry.tag_uri date, id_url
+  end
+
+  def self.tag_uri date, id
+    "tag:edd.heroku.com,#{date}:#{id}"
+  end
+
   def some_url
     url = @source_url
     unless url =~ /https?:\/\//
@@ -111,6 +124,15 @@ class Entry
     to_json_hash.to_json
   end
 
+  def to_csv
+    %Q|"#@source","#@url","#@title","#@author",| +
+    %Q|"#{@date.strftime("%Y-%m-%d %H:%M:%S%z")}",| +
+    %Q|"#{@content.gsub "\n", ''}"|
+  end
+
+  def self.csv_headers
+    "source,url,title,author,date,content"
+  end
 end
 
 class Tweet < Entry

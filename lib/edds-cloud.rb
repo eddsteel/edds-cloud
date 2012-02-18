@@ -12,6 +12,10 @@ require 'haml'
 require 'backends/couchdb'
 require 'entry'
 
+RE = { :ext=>%r{\.([a-z]{1,5})},
+    :year=>%r{(\d{4})},
+    :md=>%r{(\d{1,2})}}
+
 ##
 # Base configuration.
 #
@@ -59,53 +63,60 @@ end
 #
 get '/' do
   @entries, @next_key = @@back.entries(0, 10)
-  display :entries
+  display :entries, params[:ext]
+end
+get '/entries.?:ext?' do
+  @entries, @next_key = @@back.entries(0, 10)
+  display :entries, params[:ext]
 end
 
 ##
 # List 2nd page of entries
 #
-get '/more/?' do
+get '/more.?:ext?/?' do
   @entries, @next_key = @@back.entries(10, 10)
-  display :entries
+  display :entries, params[:ext]
 end
 
 ##
 # List page of entries starting from specific entry.
 #
-get %r{^/more/\[?(.*)\]?$} do
+get %r{^/more/\[?([^.]*)\]?#{RE[:ext]}?$} do
   @entries, @next_key = @@back.entries_from(
     "[#{sanitize(params[:captures].first)}]", 10)
-  display :entries
+  display :entries, params[:captures][1]
 end
 
 ##
 # List all entries for day
 #
-get %r{/(\d{4})/(\d{1,2})/(\d{1,2})/?} do
-  y, m, d = params[:captures].map {|p| sanitize(p).to_i}
-  @entries, @next_key = @@back.entries_for_day(y, m, d)
+get %r{/#{RE[:year]}/#{RE[:md]}/#{RE[:md]}(?:#{RE[:ext]}|/)?} do
+  y, m, d, e = params[:captures]
+  y, m, d = [y, m, d].map {|p| sanitize(p).to_i}
+  @entries, @next_key = @@back.entries_for_day(
+    y, m, d)
   @title = "#{d} #{month_name(m)}, #{y}"
-  display :entries
+  display :entries, e
 end
 
 ##
 # List all entries for a month
 #
-get %r{/(\d{4})/(\d{1,2})/?} do
-  y, m = params[:captures].map {|p| sanitize(p).to_i}
+get %r{/#{RE[:year]}/#{RE[:md]}(?:#{RE[:ext]}|/)?} do
+  y, m, e = params[:captures]
+  y, m = [y, m].map {|p| sanitize(p).to_i}
   @entries, @next_key = @@back.entries_for_month(y, m)
   @title = "#{month_name(m)}, #{y}"
-  display :entries
+  display :entries, e
 end
 
 ##
 # List all entries for a year
 #
-get %r{/(\d{4})/?} do
+get %r{/#{RE[:year]}/?} do
   year = sanitize(params[:captures][0])
   @title = "#{year}"
-  display :year, :locals=>{:year=>year}
+  display :year, nil, :locals=>{:year=>year}
 end
 
 ##
@@ -119,7 +130,7 @@ get '/tag/' do
   locals[:height] = (locals[:taglist].size / 3).to_i
 
   @title = 'Tags'
-  display :tags, :locals=>locals
+  display :tags, nil, :locals=>locals
 end
 
 ##
@@ -186,7 +197,24 @@ helpers do
     Date::MONTHNAMES[m]
   end
 
-  def display(*args)
-    haml *args
+  def display(view, extension=nil, *args)
+    # def to nil then set for routing matches
+    extension ||= 'html'
+    case extension
+    when 'atom'
+      @id = Entry.tag_uri Time.now, ENV['REQUEST_URI']
+      content_type 'application/atom+xml'
+      haml :entry_feed, :format => :xhtml, :layout => false
+    when 'csv'
+      # todo: view awareness
+      ret = Entry.csv_headers
+      ret = [ret] + @entries.map{|entry| entry.to_csv}
+      content_type 'text/plain'
+      ret.join("\n")
+    when 'html'
+      haml *([view] + args)
+    else
+      404
+    end
   end
 end
