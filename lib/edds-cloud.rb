@@ -73,7 +73,7 @@ end
 ##
 # Get single entry
 #
-get %r[/e/([^./]*)(?:#{RE[:ext]}|/)?] do
+get %r[/e/([^/]*)(?:\.#{RE[:ext]}|/)?] do
   @entry = @@back.entry(params[:captures][0])
   display :entry, params[:captures][1]
 end
