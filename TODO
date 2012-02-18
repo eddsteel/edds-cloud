@@ -1,12 +1,10 @@
+Single entry page - prettify
 multiple @ mentions on twitter
-link to other years.
-don't link to future months
-link to about page at header
+link to about page at header properly
 
-fix delicious
 fix tags from RSS
-permalinks for individual entries (shortened SHA-1)
 ditto for everything in 'resources' doc
 get historic entries
 better tweet support - fetch full content of retweets/ replace with API.
-from facebook, twitter, buzz: likes, quotes and comments.
+from twitter: likes, quotes and comments? These are all accessible through
+twitter link
