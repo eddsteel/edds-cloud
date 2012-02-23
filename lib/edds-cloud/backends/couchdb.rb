@@ -88,7 +88,8 @@ class CouchBackend
   end
 
   def entry(id)
-    url = "/#@db_name/#{URI.encode(id, /[^a-zA-Z0-9]/)}"
+    url = "/#@db_name/#{id}"
+    p url
     Entry.from_json_hash(curl(url))
   end
 

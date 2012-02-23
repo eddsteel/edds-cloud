@@ -15,8 +15,9 @@
     %entry
       %title
         =entry.title || "Activity on #{entry.source}"
-      %link{:rel=>'alternate', :type=>'text/html',:href=>"http://edd.heroku.com/e/#{entry.id_url}"}
-      %link{:href=>"http://edd.heroku.com/e/#{entry.id_url}.atom"}
+      -eid = URI.escape(entry.id_url, /[^0-9a-zA-Z]/)
+      %link{:rel=>'alternate', :type=>'text/html',:href=>"http://edd.heroku.com/e/#{eid}"}
+      %link{:href=>"http://edd.heroku.com/e/#{eid}.atom"}
       %id
         =entry.tag_uri
       %updated 
