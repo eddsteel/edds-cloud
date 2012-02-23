@@ -3,7 +3,7 @@
   %title
     Edd's Feed
   %link{:href=>'http://edd.heroku.com/entries.atom', :rel=>'self'}
-  %link{:href=>'http://edd.heroku.com'}
+  %link{:href=>'http://edd.heroku.com', :rel=>'alternate', :type=>'text/html'}
   %id
     =@id
   %updated
@@ -17,7 +17,6 @@
         =entry.title || "Activity on #{entry.source}"
       -eid = entry.id_url
       %link{:rel=>'alternate', :type=>'text/html',:href=>"http://edd.heroku.com/e/#{eid}"}
-      %link{:href=>"http://edd.heroku.com/e/#{eid}.atom"}
       %id
         =entry.tag_uri
       %updated 
