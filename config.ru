@@ -1,3 +1,4 @@
-require 'lib/edds-cloud'
+$: << 'lib'
+require 'edds-cloud'
 run Sinatra::Application
 
