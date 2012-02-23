@@ -12,6 +12,12 @@
  * check everything's properly paragraphed.
  *
  */
+
+article.singleentry {
+	margin-top: 2em;
+	font-size: 150%;
+}
+
 body, h1, h2, h3, h4, h5, h6, div, ol, ul, li,
 p, th, td, blockquote, pre, section, header,
 footer, article, nav {
@@ -92,6 +98,14 @@ article footer {
 
 html {
   background: #eee;
+}
+
+article .permalink {
+	display: none;
+}
+
+article:hover .permalink {
+	display: inline;
 }
 
 article:hover a {
