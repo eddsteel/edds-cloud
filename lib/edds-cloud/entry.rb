@@ -53,16 +53,16 @@ class Entry
   end
 
   def id_url
-    URI.escape((@source_url || '0'), /[^0-9a-zA-Z]/)
+    URI.escape((@source_url || '0'), /[^0-9a-zA-Z.]/)
   end
 
   def tag_uri
-    date = @date.strftime '%Y-%m-d'
-    Entry.tag_uri date, id_url
+    Entry.tag_uri @date, id_url
   end
 
   def self.tag_uri date, id
-    "tag:edd.heroku.com,#{date}:#{id}"
+    d = date.strftime '%Y-%m-%d'
+    "tag:edd.heroku.com,#{d}:#{id}"
   end
 
   def some_url

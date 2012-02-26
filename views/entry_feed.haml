@@ -1,30 +1,31 @@
 !!!xml
-%feed{:xmlns=>'http://www.w3.org/2005/Atom'}
-  %title
+%a:feed{:"xmlns:a"=>'http://www.w3.org/2005/Atom', :xmlns=>'http://www.w3.org/1999/xhtml'}
+  %a:title<
     Edd's Feed
-  %link{:href=>'http://edd.heroku.com/entries.atom', :rel=>'self'}
-  %link{:href=>'http://edd.heroku.com', :rel=>'alternate', :type=>'text/html'}
-  %id
-    =@id
-  %updated
-    =Time.now.strftime '%Y-%m-%dT%H:%M:%S%z'
-  %author
-    %name Edd Steel
-    %email edward.steel@gmail.com
+  %a:link{:href=>'http://edd.heroku.com/entries.atom', :rel=>'self'}
+  %a:link{:href=>'http://edd.heroku.com', :rel=>'alternate', :type=>'text/html'}
+  %a:id<
+    =@id + 'entries.atom'
+  %a:updated<
+    =Time.now.strftime '%Y-%m-%dT%H:%M:%SZ'
+  %a:author
+    %a:name Edd Steel
+    %a:email edward.steel@gmail.com
   -@entries.each do |entry|
-    %entry
-      %title
+    %a:entry
+      %a:title<
         =entry.title || "Activity on #{entry.source}"
       -eid = entry.id_url
-      %link{:rel=>'alternate', :type=>'text/html',:href=>"http://edd.heroku.com/e/#{eid}"}
-      %id
+      %a:link{:rel=>'alternate', :type=>'text/html',:href=>"http://edd.heroku.com/e/#{eid}"}
+      %a:id<
         =entry.tag_uri
-      %updated 
-        =entry.date.strftime '%Y-%m-%dT%H:%M:%S%z'
-      %content{:type=>'html', :"xml:lang"=>"en"}
-        =entry.content
-        %p
-          (
-          %a{:href=>entry.some_url}><
-            source
-          )
+      %a:updated<
+        =entry.date.strftime '%Y-%m-%dT%H:%M:%SZ'
+      %a:content{:type=>'xhtml', :"xml:lang"=>"en"}
+        %div
+          =entry.content
+          %p
+            (
+            %a{:href=>entry.some_url}><
+              source
+            )
