@@ -23,7 +23,7 @@
         =entry.date.strftime '%Y-%m-%dT%H:%M:%SZ'
       %a:content{:type=>'xhtml', :"xml:lang"=>"en"}
         %div
-          =entry.content
+          =entry.content.gsub /&( |$)/, "&amp; "
           %p
             (
             %a{:href=>entry.some_url}><
