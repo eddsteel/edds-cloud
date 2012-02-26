@@ -16,7 +16,6 @@ Future plans:
   to mix and match with backends.
 	* JSON
 	* Add microformats to HTML5 representation
-	* Atom
 * Conditional GET
 
 
