@@ -1,6 +1,5 @@
 #!/usr/bin/ruby -w
 #
-require 'rubygems'
 require 'feed-normalizer'
 require 'entry'
 
