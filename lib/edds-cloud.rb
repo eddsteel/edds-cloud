@@ -208,6 +208,10 @@ helpers do
   def display(view, extension=nil, *args)
     # def to nil then set for routing matches
     extension ||= 'html'
+    response['Cache-Control'] = 'public, max-age=3600' 
+    if @entries and @entries.length == 0
+      etag @entries[0].tag_uri
+    end
     case extension
     when 'atom'
       @id = Entry.tag_uri Time.now, ENV['REQUEST_URI']
