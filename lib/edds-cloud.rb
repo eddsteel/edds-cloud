@@ -8,6 +8,7 @@ require 'rubygems'
 require 'sinatra'
 require 'date'
 require 'haml'
+require 'rdiscount'
 
 require 'backends/couchdb'
 require 'entry'
