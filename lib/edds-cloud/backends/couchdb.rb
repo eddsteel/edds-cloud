@@ -2,7 +2,6 @@
 #
 
 require File.dirname(__FILE__) + '/backend'
-require 'rubygems'
 require 'json'
 require 'restclient'
 require 'date'
