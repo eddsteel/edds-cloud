@@ -46,3 +46,24 @@ end
 
 desc "Cron job, run by heroku every hour"
 task :cron => :load
+
+desc "Load personal statement from stackexchange careers"
+task :statement do
+  require 'open-uri'
+  require 'hpricot'
+
+  URL = 'http://careers.stackoverflow.com/eddsteel'
+  STMT= 'conf/statement.md'
+
+  doc = Hpricot(open(URL))
+  ps = doc % '#statement' / 'p'
+
+  File.delete(STMT)
+  File.open(STMT, 'w') do |f|
+    ps.each do |p|
+      f.puts p.inner_text
+      f.puts "\n"
+    end
+  end
+end
+

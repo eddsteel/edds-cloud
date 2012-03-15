@@ -137,6 +137,15 @@ article {
   margin: 0 auto 3em auto;
 }
 
+.about p, .about ul {
+	margin: 0 auto 2em auto;
+}
+
+.bio {
+	text-align: right;
+	color: #666;
+}
+
 footer {
   margin: 0 auto;
 }
@@ -330,7 +339,7 @@ img.qr:hover {
 		margin: 1em 0;
 	}
 
-	article {
+	article,p {
 		margin: 1em 0 2em 0;
 	}
 
